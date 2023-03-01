@@ -1,0 +1,181 @@
+85214_Methyl homovanillate
+                    3D
+ Schrodinger Suite 2021-3.
+ 26 26  0  0  1  0            999 V2000
+   -1.7972   -3.4623    0.4501 C   0  0  0  0  0  0
+   -2.6664   -2.3515    0.2880 O   0  0  0  0  0  0
+   -2.1017   -1.1221    0.1319 C   0  0  0  0  0  0
+   -3.0109   -0.0481   -0.0173 C   0  0  0  0  0  0
+   -2.5200    1.2431   -0.1696 C   0  0  0  0  0  0
+   -1.1426    1.4926   -0.1808 C   0  0  0  0  0  0
+   -0.2427    0.4419   -0.0444 C   0  0  0  0  0  0
+   -0.7336   -0.8656    0.1145 C   0  0  0  0  0  0
+    1.2590    0.6838   -0.0649 C   0  0  0  0  0  0
+    1.9083    0.1485    1.1980 C   0  0  0  0  0  0
+    2.1495   -1.0227    1.4070 O   0  0  0  0  0  0
+    2.1509    1.1302    2.0912 O   0  0  0  0  0  0
+    2.7018    0.6910    3.3463 C   0  0  0  0  0  0
+   -4.3421   -0.3532    0.0024 O   0  0  0  0  0  0
+   -2.4438   -4.3344    0.5588 H   0  0  0  0  0  0
+   -1.1704   -3.3603    1.3458 H   0  0  0  0  0  0
+   -1.1471   -3.5999   -0.4241 H   0  0  0  0  0  0
+   -3.2226    2.0665   -0.2801 H   0  0  0  0  0  0
+   -0.7829    2.5107   -0.2962 H   0  0  0  0  0  0
+   -0.0216   -1.6713    0.2438 H   0  0  0  0  0  0
+    1.7182    0.1518   -0.9051 H   0  0  0  0  0  0
+    1.4720    1.7497   -0.1681 H   0  0  0  0  0  0
+    2.8422    1.5945    3.9395 H   0  0  0  0  0  0
+    3.6553    0.1796    3.1904 H   0  0  0  0  0  0
+    2.0137    0.0045    3.8467 H   0  0  0  0  0  0
+   -4.8457    0.4628   -0.1135 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1 15  1  0  0  0
+  1 16  1  0  0  0
+  1 17  1  0  0  0
+  2  3  1  0  0  0
+  3  8  1  0  0  0
+  3  4  2  0  0  0
+  4  5  1  0  0  0
+  4 14  1  0  0  0
+  5  6  2  0  0  0
+  5 18  1  0  0  0
+  6  7  1  0  0  0
+  6 19  1  0  0  0
+  7  8  2  0  0  0
+  7  9  1  0  0  0
+  8 20  1  0  0  0
+  9 10  1  0  0  0
+  9 21  1  0  0  0
+  9 22  1  0  0  0
+ 10 11  2  0  0  0
+ 10 12  1  0  0  0
+ 12 13  1  0  0  0
+ 13 23  1  0  0  0
+ 13 24  1  0  0  0
+ 13 25  1  0  0  0
+ 14 26  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+424
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+>  <r_j_Gas_Phase_Energy> (1)
+-689.433344645797
+
+>  <r_j_Final_Energy> (1)
+-689.433344645797
+
+>  <r_j_HOMO> (1)
+-0.213290556090769
+
+>  <r_j_LUMO> (1)
+-0.0157372978225969
+
+>  <r_j_Polarizability> (1)
+130.46260031933
+
+>  <r_j_QM_Dipole_(debye)> (1)
+1.85405998800772
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0.27378812018345
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+1.78788836453783
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+0.407472330751213
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+45.8037318464117
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3774.10687231892
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+54.4714258088668
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+130.652852764711
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+111.897984619979
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+8.83520182956357
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-24.5271822848832
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+8.2427162407363
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+50.2827042889261
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+41.3970951317662
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-689.212000465914
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-689.211056280022
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-689.264222623654
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0023
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0023
+
+>  <r_epik_State_Penalty> (1)
+  0.0016
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0.00156329
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+17.8787
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+>  <s_epik_Chemistry_Notes> (1)
+This compound has an ester and may undergo hydrolysis at high or low pH.
+
+$$$$

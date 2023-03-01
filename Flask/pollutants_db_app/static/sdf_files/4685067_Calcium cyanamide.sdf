@@ -1,0 +1,79 @@
+4685067_Calcium cyanamide
+                    3D
+ Schrodinger Suite 2021-3.
+  4  3  0  0  1  0            999 V2000
+    0.0102    1.6620    0.0000 C   0  0  0  0  0  0
+    0.4813    2.7749    0.0000 N   0  0  0  0  0  0
+   -0.5438    0.5276    0.0000 N   0  0  0  0  0  0
+    0.0188   -1.6563    0.0000 Ca  0  0  0  0  0  0
+  1  2  3  0  0  0
+  1  3  1  0  0  0
+  3  4  2  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+lacv3p**
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+70
+
+>  <r_j_Gas_Phase_Energy> (1)
+-184.130900962965
+
+>  <r_j_Final_Energy> (1)
+-184.130900962965
+
+>  <r_j_Polarizability> (1)
+152.586731942402
+
+>  <r_j_QM_Dipole_(debye)> (1)
+10.7011675811197
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-0.706815962764039
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+-10.6777993422797
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+6.97824909323101
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+68.4873773819896
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+3.20824656772755
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-17.2112649987126
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.61576097890028
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+11.6375960533439
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+29.0492550760255
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-184.115611934623
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-184.11466774873
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-184.147208311929
+
+$$$$

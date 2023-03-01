@@ -1,0 +1,169 @@
+66349_5-Acetoxymethyl-2-furaldehyde
+                    3D
+ Schrodinger Suite 2021-3.
+ 20 20  0  0  1  0            999 V2000
+   -1.9842    1.2989    0.1212 C   0  0  0  0  0  0
+   -0.4809    1.3301   -0.0174 C   0  0  0  0  0  0
+    0.1827    2.3256   -0.2063 O   0  0  0  0  0  0
+    0.0548    0.0897    0.0964 O   0  0  0  0  0  0
+    1.4952    0.0350   -0.0491 C   0  0  0  0  0  0
+    1.9060   -1.3888   -0.0215 C   0  0  0  0  0  0
+    2.5341   -2.1571    0.9250 C   0  0  0  0  0  0
+    2.6463   -3.4625    0.3765 C   0  0  0  0  0  0
+    2.0767   -3.4058   -0.8712 C   0  0  0  0  0  0
+    1.6242   -2.1347   -1.1210 O   0  0  0  0  0  0
+    1.8803   -4.4068   -1.9098 C   0  0  0  0  0  0
+    2.2435   -5.5652   -1.7984 O   0  0  0  0  0  0
+   -2.3590    0.2892    0.2887 H   0  0  0  0  0  0
+   -2.4267    1.7148   -0.7880 H   0  0  0  0  0  0
+   -2.2731    1.9476    0.9525 H   0  0  0  0  0  0
+    1.7784    0.5169   -0.9897 H   0  0  0  0  0  0
+    1.9709    0.5843    0.7680 H   0  0  0  0  0  0
+    2.8662   -1.8175    1.8951 H   0  0  0  0  0  0
+    3.0828   -4.3436    0.8226 H   0  0  0  0  0  0
+    1.3680   -4.0281   -2.8190 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1 13  1  0  0  0
+  1 14  1  0  0  0
+  1 15  1  0  0  0
+  2  3  2  0  0  0
+  2  4  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  5 16  1  0  0  0
+  5 17  1  0  0  0
+  6 10  1  0  0  0
+  6  7  2  0  0  0
+  7  8  1  0  0  0
+  7 18  1  0  0  0
+  8  9  2  0  0  0
+  8 19  1  0  0  0
+  9 10  1  0  0  0
+  9 11  1  0  0  0
+ 11 12  2  0  0  0
+ 11 20  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+345
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+>  <r_j_Gas_Phase_Energy> (1)
+-610.765665155948
+
+>  <r_j_Final_Energy> (1)
+-610.765665155948
+
+>  <r_j_HOMO> (1)
+-0.268484790177898
+
+>  <r_j_LUMO> (1)
+-0.0935543501048348
+
+>  <r_j_Polarizability> (1)
+108.517579242012
+
+>  <r_j_QM_Dipole_(debye)> (1)
+2.60909350482209
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-0.883843870574093
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+1.65245493113599
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+1.81537368878084
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+51.1870298456052
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3225.28041712795
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+74.7955051480905
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+93.857684541085
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+102.970891420188
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+7.43902683180163
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-23.2617444451273
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+6.84654124297436
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+39.8917801478185
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+39.2612831160501
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-610.605182755922
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-610.60423857003
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-610.653163363591
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+2.55396
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+>  <s_epik_Chemistry_Notes> (1)
+This compound has an ester and may undergo hydrolysis at high or low pH.
+
+$$$$

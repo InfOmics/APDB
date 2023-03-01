@@ -1,0 +1,172 @@
+79029_Levoglucosan
+                    3D
+ Schrodinger Suite 2021-3.
+ 21 22  0  0  1  0            999 V2000
+   -1.6739   -0.3376    2.0174 C   0  0  0  0  0  0
+   -0.4740   -0.7691    1.1781 C   0  0  0  0  0  0
+   -0.2109    0.1653   -0.0451 C   0  0  0  0  0  0
+   -0.7744   -0.4905   -1.3231 C   0  0  0  0  0  0
+   -2.1983   -1.0573   -1.1242 C   0  0  0  0  0  0
+   -2.2709   -1.7239    0.2756 C   0  0  0  0  0  0
+   -2.7806   -0.7946    1.2289 O   0  0  0  0  0  0
+   -0.9543   -2.0633    0.7239 O   0  0  0  0  0  0
+   -2.5204   -1.9636   -2.1595 O   0  0  0  0  0  0
+    0.1101   -1.5547   -1.7290 O   0  0  0  0  0  0
+    1.1648    0.4534   -0.2074 O   0  0  0  0  0  0
+   -1.7505    0.7447    2.1557 H   0  0  0  0  0  0
+   -1.6717   -0.8321    2.9964 H   0  0  0  0  0  0
+    0.4484   -0.9213    1.7396 H   0  0  0  0  0  0
+   -0.7182    1.1236    0.1183 H   0  0  0  0  0  0
+   -0.7551    0.2241   -2.1489 H   0  0  0  0  0  0
+   -2.9356   -0.2474   -1.1380 H   0  0  0  0  0  0
+   -2.8795   -2.6317    0.2491 H   0  0  0  0  0  0
+   -1.6746   -2.3145   -2.4814 H   0  0  0  0  0  0
+    0.0812   -2.1965   -0.9962 H   0  0  0  0  0  0
+    1.5128   -0.2469   -0.7831 H   0  0  0  0  0  0
+  1  7  1  0  0  0
+  1  2  1  0  0  0
+  1 12  1  0  0  0
+  1 13  1  0  0  0
+  2  8  1  0  0  0
+  2  3  1  0  0  0
+  2 14  1  0  0  0
+  3  4  1  0  0  0
+  3 11  1  0  0  0
+  3 15  1  0  0  0
+  4  5  1  0  0  0
+  4 10  1  0  0  0
+  4 16  1  0  0  0
+  5  6  1  0  0  0
+  5  9  1  0  0  0
+  5 17  1  0  0  0
+  6  7  1  0  0  0
+  6  8  1  0  0  0
+  6 18  1  0  0  0
+  9 19  1  0  0  0
+ 10 20  1  0  0  0
+ 11 21  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+341
+
+>  <i_j_Geometry_convergence_category> (1)
+1
+
+>  <r_j_Gas_Phase_Energy> (1)
+-610.97454731693
+
+>  <r_j_Final_Energy> (1)
+-610.97454731693
+
+>  <r_j_HOMO> (1)
+-0.269640330389426
+
+>  <r_j_LUMO> (1)
+0.0150249099257555
+
+>  <r_j_Polarizability> (1)
+81.1760480314251
+
+>  <r_j_QM_Dipole_(debye)> (1)
+1.49619084928044
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0.748972271382696
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+0.264852295906779
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+1.26786468344349
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+105.422398652619
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3690.52630430686
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+155.530340969911
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+107.926504370405
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+91.026954613731
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+6.13433123383438
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-21.0053552842495
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+5.54184564500711
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+36.4420494759375
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+35.4529387386891
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-610.793723990048
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-610.792779804156
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-610.836029647888
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+7.05911
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+>  <s_epik_Chemistry_Notes> (1)
+This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+
+$$$$

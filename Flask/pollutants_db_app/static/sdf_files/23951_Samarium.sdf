@@ -1,0 +1,79 @@
+23951_Samarium
+                    3D
+ Schrodinger Suite 2021-3.
+  1  0  0  0  1  0            999 V2000
+    0.0000    0.0000    0.0000 Sm  0  0  0  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+csdz**
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+40
+
+>  <r_j_Gas_Phase_Energy> (1)
+-80.9189942231882
+
+>  <r_j_Final_Energy> (1)
+-80.9189942231882
+
+>  <r_j_Polarizability> (1)
+82.7367904515525
+
+>  <r_j_QM_Dipole_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+0
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+40.9645753803362
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+1.48121397206819
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-10.7323741775791
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+0.888728383240912
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+2.98080960335707
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+18.114152276382
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-80.9175779443498
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-80.9166337584576
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-80.9360973502176
+
+>  <r_j_HOMO> (1)
+-0.081006071864104
+
+>  <r_j_LUMO> (1)
+0.0149229485708023
+
+$$$$

@@ -1,0 +1,172 @@
+18636_1,2,3,4,6,7,8,9-Octachlorodibenzo-p-dioxin
+                    3D
+ Schrodinger Suite 2021-3.
+ 22 24  0  0  1  0            999 V2000
+    0.0854   -2.0682    1.2149 C   0  0  0  0  0  0
+    0.0662   -0.6735    1.2226 C   0  0  0  0  0  0
+   -0.1289    0.0378    0.0391 C   0  0  0  0  0  0
+   -0.3073   -0.6603   -1.1705 C   0  0  0  0  0  0
+   -0.2879   -2.0651   -1.1783 C   0  0  0  0  0  0
+   -0.0901   -2.7714    0.0234 C   0  0  0  0  0  0
+   -0.0563   -4.5059    0.0763 Cl  0  0  0  0  0  0
+   -0.5065   -2.9402   -2.6631 Cl  0  0  0  0  0  0
+   -0.5503    0.2251   -2.6454 Cl  0  0  0  0  0  0
+   -0.1430    1.7718    0.1113 Cl  0  0  0  0  0  0
+    0.2370    0.0374    2.3846 O   0  0  0  0  0  0
+    0.4276   -0.6813    3.5386 C   0  0  0  0  0  0
+    0.4469   -2.0760    3.5309 C   0  0  0  0  0  0
+    0.2760   -2.7869    2.3689 O   0  0  0  0  0  0
+    0.6419   -2.7873    4.7145 C   0  0  0  0  0  0
+    0.8203   -2.0891    5.9240 C   0  0  0  0  0  0
+    0.8009   -0.6843    5.9317 C   0  0  0  0  0  0
+    0.6032    0.0219    4.7300 C   0  0  0  0  0  0
+    0.5695    1.7564    4.6770 Cl  0  0  0  0  0  0
+    1.0196    0.1910    7.4164 Cl  0  0  0  0  0  0
+    1.0633   -2.9744    7.3990 Cl  0  0  0  0  0  0
+    0.6561   -4.5213    4.6423 Cl  0  0  0  0  0  0
+  1  6  1  0  0  0
+  1 14  1  0  0  0
+  1  2  2  0  0  0
+  2  3  1  0  0  0
+  2 11  1  0  0  0
+  3  4  2  0  0  0
+  3 10  1  0  0  0
+  4  5  1  0  0  0
+  4  9  1  0  0  0
+  5  6  2  0  0  0
+  5  8  1  0  0  0
+  6  7  1  0  0  0
+ 11 12  1  0  0  0
+ 12 18  1  0  0  0
+ 12 13  2  0  0  0
+ 13 14  1  0  0  0
+ 13 15  1  0  0  0
+ 15 16  2  0  0  0
+ 15 22  1  0  0  0
+ 16 17  1  0  0  0
+ 16 21  1  0  0  0
+ 17 18  2  0  0  0
+ 17 20  1  0  0  0
+ 18 19  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+526
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+>  <r_j_Gas_Phase_Energy> (1)
+-4289.72506564227
+
+>  <r_j_Final_Energy> (1)
+-4289.72506564227
+
+>  <r_j_HOMO> (1)
+-0.261450553797808
+
+>  <r_j_LUMO> (1)
+-0.0974836777695042
+
+>  <r_j_Polarizability> (1)
+255.501208117654
+
+>  <r_j_QM_Dipole_(debye)> (1)
+0.000151536822901705
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-1.8549379770755e-06
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+-5.069453942703e-05
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-0.000142793667830633
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+32.8807869835799
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+1598.14789990669
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+44.4004865071005
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+56.4910373495033
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+141.646886864517
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+12.8106550327227
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-29.4213642859332
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+12.2181694438954
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+70.3884387379725
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+49.6575188337792
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-4289.61557055084
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-4289.61462636495
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-4289.68192737208
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+34.8577
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+$$$$

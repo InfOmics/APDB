@@ -1,0 +1,96 @@
+14792_Magnesium Oxide
+                    3D
+ Schrodinger Suite 2021-3.
+  2  1  0  0  1  0            999 V2000
+    0.0000    0.0000    1.0461 O   0  0  0  0  0  0
+    0.0000    0.0000   -0.6976 Mg  0  0  0  0  0  0
+  1  2  2  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+50
+
+>  <r_j_Gas_Phase_Energy> (1)
+-275.268506322313
+
+>  <r_j_Final_Energy> (1)
+-275.268506322313
+
+>  <r_j_Polarizability> (1)
+48.9151865031111
+
+>  <r_j_QM_Dipole_(debye)> (1)
+6.9194137677725
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-4.81027397880225e-07
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+-7.56103291566145e-07
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-6.91941376777245
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+1.17281819058185
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+50.8531715816939
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.11933126920751
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-13.0425418378745
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+1.52684568038023
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+5.58572281650914
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+22.0132642613132
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-275.264204134059
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-275.263259948167
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-275.287421931104
+
+>  <r_j_HOMO> (1)
+-0.215581369867412
+
+>  <r_j_LUMO> (1)
+-0.139905102218826
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+820.398263496019
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+820.398263496019
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+820.398263496019
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+$$$$

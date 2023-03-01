@@ -1,0 +1,180 @@
+31214_Ethyl orthoformate
+                    3D
+ Schrodinger Suite 2021-3.
+ 26 25  0  0  1  0            999 V2000
+   -2.1533    1.0905    0.0558 C   0  0  0  0  0  0
+   -0.6427    1.2368    0.0856 C   0  0  0  0  0  0
+   -0.0841   -0.0713    0.2243 O   0  0  0  0  0  0
+    1.3055   -0.1076    0.1877 C   0  0  0  0  0  0
+    1.7196   -1.4352    0.1781 O   0  0  0  0  0  0
+    1.4035   -2.1423   -1.0228 C   0  0  0  0  0  0
+    2.0084   -3.5301   -0.9113 C   0  0  0  0  0  0
+    1.8002    0.5076    1.3326 O   0  0  0  0  0  0
+    3.2200    0.6694    1.3472 C   0  0  0  0  0  0
+    3.5816    1.4399    2.6041 C   0  0  0  0  0  0
+   -2.6306    2.0699   -0.0496 H   0  0  0  0  0  0
+   -2.5071    0.6271    0.9810 H   0  0  0  0  0  0
+   -2.4610    0.4593   -0.7831 H   0  0  0  0  0  0
+   -0.2766    1.7034   -0.8445 H   0  0  0  0  0  0
+   -0.3203    1.8684    0.9225 H   0  0  0  0  0  0
+    1.6799    0.4181   -0.7223 H   0  0  0  0  0  0
+    0.3149   -2.1908   -1.1487 H   0  0  0  0  0  0
+    1.8160   -1.6048   -1.8932 H   0  0  0  0  0  0
+    1.7917   -4.1153   -1.8105 H   0  0  0  0  0  0
+    1.5954   -4.0548   -0.0452 H   0  0  0  0  0  0
+    3.0936   -3.4670   -0.7880 H   0  0  0  0  0  0
+    3.7051   -0.3143    1.3294 H   0  0  0  0  0  0
+    3.5438    1.2168    0.4460 H   0  0  0  0  0  0
+    4.6645    1.5883    2.6634 H   0  0  0  0  0  0
+    3.2552    0.8910    3.4919 H   0  0  0  0  0  0
+    3.0935    2.4189    2.6079 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1 11  1  0  0  0
+  1 12  1  0  0  0
+  1 13  1  0  0  0
+  2  3  1  0  0  0
+  2 14  1  0  0  0
+  2 15  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  4  8  1  0  0  0
+  4 16  1  0  0  0
+  5  6  1  0  0  0
+  6  7  1  0  0  0
+  6 17  1  0  0  0
+  6 18  1  0  0  0
+  7 19  1  0  0  0
+  7 20  1  0  0  0
+  7 21  1  0  0  0
+  8  9  1  0  0  0
+  9 10  1  0  0  0
+  9 22  1  0  0  0
+  9 23  1  0  0  0
+ 10 24  1  0  0  0
+ 10 25  1  0  0  0
+ 10 26  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+374
+
+>  <i_j_Geometry_convergence_category> (1)
+1
+
+>  <r_j_Gas_Phase_Energy> (1)
+-502.238878497133
+
+>  <r_j_Final_Energy> (1)
+-502.238878497133
+
+>  <r_j_HOMO> (1)
+-0.274767097074772
+
+>  <r_j_LUMO> (1)
+0.0318056528273024
+
+>  <r_j_Polarizability> (1)
+101.979115022566
+
+>  <r_j_QM_Dipole_(debye)> (1)
+2.03870706937469
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0.683401985906109
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+0.959695628465364
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-1.6638126520382
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+81.7419293640575
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3070.67763593302
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+82.3360583562948
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+144.506289840708
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+106.864882259185
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+8.16311817096375
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-23.6986464746122
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+7.57063258213648
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+43.6688823209276
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+39.9986884432408
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-501.996528493359
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-501.995584307467
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-502.046359261741
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+-4.88555
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+>  <s_epik_Chemistry_Notes> (1)
+This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+
+$$$$

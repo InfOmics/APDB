@@ -1,0 +1,88 @@
+23981_Europium
+                    3D
+ Schrodinger Suite 2021-3.
+  1  0  0  0  1  0            999 V2000
+    0.0000    0.0000    0.0000 Eu  0  0  0  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+2
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+UDFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+csdz**
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+40
+
+>  <r_j_Gas_Phase_Energy> (1)
+-94.5115044594043
+
+>  <r_j_Final_Energy> (1)
+-94.5115044594043
+
+>  <r_j_alpha_HOMO> (1)
+0.462430418062892
+
+>  <r_j_alpha_LUMO> (1)
+0.0725909135594394
+
+>  <r_j_beta_HOMO> (1)
+0.543602617971882
+
+>  <r_j_beta_LUMO> (1)
+0.0747056235391415
+
+>  <r_j_Polarizability> (1)
+9.4479999974321
+
+>  <r_j_QM_Dipole_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+0
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+42.3615877512611
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+1.48121397206819
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-11.1488934159703
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+0.888728383240912
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+2.98080960335707
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+18.8171554316413
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-94.5100881805659
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-94.5091439946737
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-94.5292713520951
+
+>  <r_j_S2_Value> (1)
+0.754067620111773
+
+$$$$

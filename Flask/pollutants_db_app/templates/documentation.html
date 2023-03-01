@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="APDB Web App">
+
+    <!-- Import CSS stylesheet --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    <!-- Import Bootstrap JS plugins --> 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Import JS libraries --> 
+    <script src="https://code.jquery.com/jquery-3.5.1.js" crossorigin="anonymous"></script>
+
+    <!-- Import JS scripts --> 
+    <script src="{{ url_for('static', filename='js/navs.js') }}"></script>
+
+  </head>
+  
+  <body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarToggle">
+        <ul class="navbar navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="/apdb/home" target="_self">Home<span class="sr-only">(current)</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/apdb/statistics" target="_self">Statistics</a>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="/apdb/documentation" target="_self">Documentation</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/apdb/downloads-contacts" target="_self">Downloads/Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content">
+      <div class="row" style="justify-content: center"> 
+
+        <div class="col-sm-2 col-md-2 col-lg-2" style="margin-top: 50px;">
+          <ul class="nav nav-stacked affix">
+
+            <li class="active"><a href="#sec1">About</a></li>
+            <li class=""><a href="#sec2">APDB's use</a></li>
+            <li class=""><a href="#sec3">License</a></li>
+
+          </ul>
+        </div> <!-- col-sm-2 col-md-2 col-lg-2 -->
+      
+        <div class="col-sm-8 col-md-8 col-lg-8">
+
+          <h2>APDB: Database of Air Pollutants</h2>
+          <h3>Documentation</h3>
+    
+          <span id="sec1">&nbsp;</span><hr><br>
+
+            <strong style="font-size: 20px;">APDB: a database on air pollutants characterization and similarity prediction</strong>
+            <p>
+              APDB is an essential resource which improves our knowledge on the existing air pollutants, their molecular properties and mechanisms of action. 
+              This database contains a collection of pollutant molecules from different online resources, specifically from:
+              <ul>
+                <li><a href="https://www.epa.gov/air-emissions-modeling/speciate-0" target="_blank">List of SPECIATE data</a>;</li>
+                <li><a href="https://www.epa.gov/haps/initial-list-hazardous-air-pollutants-modifications" target="_blank">List of hazardous air pollutants</a>;</li>
+              </ul>
+            </p>
+
+            <p>                
+              In APDB, air pollutants are chemically annotated and their activity in relation to the inhibition or activation of specific protein targets is reported. 
+              Annotation is accomplished through <a href="https://pubchem.ncbi.nlm.nih.gov/" target="_blank">PubChem</a> identifiers such as PubChem Compound Identification (CID), 
+              CAS, InChIKey, canonical SMILES and molecular formula. Activity is retrieved by listing associated targets and bioassays found in the 
+              <a href="https://pubchem.ncbi.nlm.nih.gov/docs/bioassays" target="_blank">PubChem BioAssay</a> repository. Molecules are characterized through molecular fingerprints 
+              and descriptors calculated with <a href="https://onlinelibrary.wiley.com/doi/10.1002/jcc.21707" target="_blank">PaDEL-Descriptor</a> software and quantum-mechanical 
+              properties computed with the quantum chemistry program <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/qua.24481" target="_blank">Jaguar</a>.
+              Similar molecules are derived from molecular descriptors and properties by applying the most common similarity measures after accurate data preprocessing.<br>
+            </p>
+            
+          <span id="sec2">&nbsp;</span><hr><br>
+
+            <strong style="font-size: 20px;">Home Page</strong><br>
+            Through the Home section, users can browse molecules, targets and bioassays, descriptors, and similarities 
+            by clicking on the corresponding "Run" button.
+            <div class="row" id="doc_img">
+              <img src="{{ url_for('static', filename='doc_img/home.png') }}" width="70%" height="auto">
+            </div>
+
+            <strong style="font-size: 18px;">Molecules List</strong><br>
+            The molecular annotation card leads to the list of molecules. Molecules are specified by the following identifiers: 
+            <ul>
+              <li><strong>Chemical Name</strong>
+              <li><strong>CID</strong>
+              <li><strong>CAS</strong>
+              <li><strong>InChIKey</strong>
+              <li><strong>Canonical SMILES</strong>
+              <li><strong>Molecular Formula</strong>
+
+            </ul>
+
+            Molecule atoms can be filtered by clicking on an element from the periodic table. By pressing the download button at the bottom of the panel, 
+            users can obtain a CSV file with the entire table or with the selected items from the column checkboxes, the periodic table, or the search form. 
+            Molecules can be searched by all their identifiers. 
+            In the first form, the user can specify the type of identifier and in the second form, can select the desired entry. 
+            By clicking on a CID entry, users are redirected to the <a href="#similar">similar molecules panel</a>.
+            <div class="row" id="doc_img">
+              <img src="{{ url_for('static', filename='doc_img/molecule_list.png') }}" width="100%" height="auto">
+            </div>
+
+            <strong style="font-size: 18px;">Biossays List</strong><br>
+            The targets & bioassays card leads to the list of biossays. Bioassays are specified through the assay ID (AID), associated CID, activity value in µm, 
+            activity name, assay name, assay type, and PubMed ID. Targets are inserted by their:
+            <ul>
+              <li><strong>GenInfo Identifier (GI)</strong>
+              <li><strong>Gene ID</strong>
+              <li><strong>Symbol</strong>
+              <li><strong>UniProtKB</strong>
+
+            </ul>
+
+            By pressing the download button, users can obtain a CSV file with the whole table or with the selected items from the column checkboxes or the search form. 
+            In the first form, the user can specify the type of target identifier type and in the second form, can select the desired entry. 
+            By clicking on a UniProtKB entry, users are redirected to the <a href="#target">target panel</a> containing additional information on the searched target. 
+            <div class="row" id="doc_img">
+              <img src="{{ url_for('static', filename='doc_img/bioassay_list.png') }}" width="100%" height="auto">
+            </div>        
+            
+            <strong id="target" style="font-size: 18px;">Target Panel</strong><br>
+            In the selected target panel, users can visualize the optimized PDB structure generated with 3Dmol.js and download the file via the “PDB” button. 
+            If the PDB structure is not available, users can download and explore the predicted protein structure on the AlphaFold page. Molecules associated 
+            with the searched target can be downloaded as a CSV file by pressing on the download icon in the table header. 
+            By clicking on a CID entry, users are redirected to the <a href="#similar">similar molecules panel</a>.
+            <div class="row" id="doc_img">
+              <img src="{{ url_for('static', filename='doc_img/target_panel.png') }}" width="70%" height="auto">
+            </div>
+
+            <strong style="font-size: 18px;">Descriptors Panel</strong><br>
+            Fingerprints are illustrated through an interactive radar chart representing the distribution of the inverse-document-frequency weights, 
+            while molecular descriptors and quantum properties are illustrated through a scatter plot matrix. 
+            By pressing on the download icon, users can obtain a CSV file with the desired descriptor table.
+            <div class="row" id="doc_img">
+              <img src="{{ url_for('static', filename='doc_img/descriptors_overview.png') }}" width="100%" height="auto">
+            </div>
+
+            <strong style="font-size: 18px;">Similarities Search</strong><br>
+            Similarity spaces are illustrated through an interactive scatter plot of k-means clusters projected to 3D with t-SNE. 
+            A legend shows for each cluster the number of similar molecules found. 
+            By pressing on the download icon, users can obtain a .zip file with the corresponding embedding model from <i>Node2Vec</i> 
+            (note that molecular descriptors and quantum properties also include the model for single elements). 
+            Similar molecules can be retrieved by inserting the CID or InChIKey of a molecule of interest in the search area.
+            <div class="row" id="doc_img">
+              <img src="{{ url_for('static', filename='doc_img/similarity_spaces.png') }}" width="100%" height="auto">
+            </div>
+
+            <strong id="similar" style="font-size: 18px;">Similarities Panel</strong><br>
+            The similarity panel of a query molecule shows molecular info together with the 2D structure generated with RDKit and the list of similar molecules ranked by 
+            the number of intersecting chemical spaces (indicated with different colours) and the average similarity computed across spaces. 
+            Users can change the similarity threshold in the range of 0.75-0.99 (default is 0.95); if no similar molecules are found, those with the closest threshold 
+            are returned. The “SDF” button allows downloading the optimized SDF file for the searched molecule. Similar molecules can be downloaded as a CSV file by 
+            pressing on the download icon in the table header. 
+            <div class="row" id="doc_img">
+              <img src="{{ url_for('static', filename='doc_img/molecule_similarity_panel.png') }}" width="100%" height="auto">
+            </div>
+
+          <span id="sec3">&nbsp;</span><hr><br>
+
+            <strong>License</strong><br><br>
+            <blockquote>
+              Copyright (c) 2023 by <a href="https://infomics.github.io/InfOmics/" target="_blank">InfOmics</a><br><br>
+              This website and all its content is licensed under a MIT License.
+            </blockquote>
+
+        </div> <!-- col-sm-8 col-md-8 col-lg-8 -->
+        <div class="col-md-1" id="rightCol"></div>
+      </div> <!-- row -->
+    </div><!-- content -->
+  </body>
+</html>

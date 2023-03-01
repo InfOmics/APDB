@@ -1,0 +1,156 @@
+7367_Benzotrichloride
+                    3D
+ Schrodinger Suite 2021-3.
+ 15 15  0  0  1  0            999 V2000
+   -2.8081    0.0000   -0.0193 C   0  0  0  0  0  0
+   -2.1065    1.2047    0.0012 C   0  0  0  0  0  0
+   -0.7145    1.2083    0.0478 C   0  0  0  0  0  0
+   -0.0075    0.0000    0.0825 C   0  0  0  0  0  0
+   -0.7144   -1.2083    0.0479 C   0  0  0  0  0  0
+   -2.1064   -1.2047    0.0013 C   0  0  0  0  0  0
+    1.5127    0.0000    0.0331 C   0  0  0  0  0  0
+    2.2342   -1.4541    0.8354 Cl  0  0  0  0  0  0
+    2.0384    0.0001   -1.7111 Cl  0  0  0  0  0  0
+    2.2344    1.4539    0.8359 Cl  0  0  0  0  0  0
+   -3.8933    0.0000   -0.0533 H   0  0  0  0  0  0
+   -2.6407    2.1495   -0.0191 H   0  0  0  0  0  0
+   -0.1819    2.1514    0.0536 H   0  0  0  0  0  0
+   -0.1818   -2.1514    0.0537 H   0  0  0  0  0  0
+   -2.6407   -2.1495   -0.0189 H   0  0  0  0  0  0
+  1  6  1  0  0  0
+  1  2  2  0  0  0
+  1 11  1  0  0  0
+  2  3  1  0  0  0
+  2 12  1  0  0  0
+  3  4  2  0  0  0
+  3 13  1  0  0  0
+  4  5  1  0  0  0
+  4  7  1  0  0  0
+  5  6  2  0  0  0
+  5 14  1  0  0  0
+  6 15  1  0  0  0
+  7  8  1  0  0  0
+  7  9  1  0  0  0
+  7 10  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+282
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+>  <r_j_Gas_Phase_Energy> (1)
+-1650.53124481545
+
+>  <r_j_Final_Energy> (1)
+-1650.53124481545
+
+>  <r_j_HOMO> (1)
+-0.271035131748768
+
+>  <r_j_LUMO> (1)
+-0.0550604026576544
+
+>  <r_j_Polarizability> (1)
+113.144135549705
+
+>  <r_j_QM_Dipole_(debye)> (1)
+2.49813946371643
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-2.49745480653664
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+-0.000272019420660129
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+0.0584824374480916
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+62.4068322971216
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3172.77097897145
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+113.586459514764
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+62.352551184381
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+94.6921695480213
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+6.2300770385012
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-22.0023933122414
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+5.63759144967393
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+33.5143937249732
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+37.1357442731922
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-1650.42289562571
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-1650.42195143981
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-1650.46694274544
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+11.904905
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+$$$$

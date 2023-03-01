@@ -1,0 +1,79 @@
+5460467_Beryllium
+                    3D
+ Schrodinger Suite 2021-3.
+  1  0  0  0  1  0            999 V2000
+    0.0000    0.0000    0.0000 Be  0  0  0  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+23
+
+>  <r_j_Gas_Phase_Energy> (1)
+-14.6724466630281
+
+>  <r_j_Final_Energy> (1)
+-14.6724466630281
+
+>  <r_j_Polarizability> (1)
+43.0754071573976
+
+>  <r_j_QM_Dipole_(debye)> (1)
+1.87087430321617e-09
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-1.55695130074979e-09
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+2.05066965591815e-10
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-1.01686815524486e-09
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+0
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+32.5444587987231
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+1.48121397206819
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-8.22191641877111
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+0.888728383240912
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+2.98080960335707
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+13.8769897088046
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-14.6710303841897
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-14.6700861982974
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-14.685549120938
+
+>  <r_j_HOMO> (1)
+-0.232309027654212
+
+>  <r_j_LUMO> (1)
+-0.0513488787453301
+
+$$$$

@@ -1,0 +1,96 @@
+24524_Fluoride ion
+                    3D
+ Schrodinger Suite 2021-3.
+  2  1  0  0  1  0            999 V2000
+    0.0000    0.0000    0.7015 F   0  0  0  0  0  0
+    0.0000    0.0000   -0.7015 F   0  0  0  0  0  0
+  1  2  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+46
+
+>  <r_j_Gas_Phase_Energy> (1)
+-199.584089100541
+
+>  <r_j_Final_Energy> (1)
+-199.584089100541
+
+>  <r_j_Polarizability> (1)
+5.49671902517108
+
+>  <r_j_QM_Dipole_(debye)> (1)
+4.37505766079028e-07
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-2.01914320483197e-09
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+4.69280377592891e-09
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+4.37475937630673e-07
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+1.49169755151999
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+48.3272144651481
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.09322959868291
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-12.315529394101
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+1.50074400985564
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+5.30001363546617
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+20.7862091945182
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-199.579320341335
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-199.578376155443
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-199.601337974637
+
+>  <r_j_HOMO> (1)
+-0.413457547914844
+
+>  <r_j_LUMO> (1)
+-0.151184832069203
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+1043.45762263555
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+1043.45762263555
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+1043.45762263555
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+$$$$

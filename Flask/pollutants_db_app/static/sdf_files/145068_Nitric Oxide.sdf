@@ -1,0 +1,105 @@
+145068_Nitric Oxide
+                    3D
+ Schrodinger Suite 2021-3.
+  2  1  0  0  1  0            999 V2000
+    0.0000    0.0000    0.5409 O   0  0  0  0  0  0
+    0.0000    0.0000   -0.6178 N   0  0  1  0  0  0
+  1  2  2  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+2
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+UDFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+46
+
+>  <r_j_Gas_Phase_Energy> (1)
+-129.93595882698
+
+>  <r_j_Final_Energy> (1)
+-129.93595882698
+
+>  <r_j_alpha_HOMO> (1)
+-0.223335279743115
+
+>  <r_j_alpha_LUMO> (1)
+-0.113006134326295
+
+>  <r_j_beta_HOMO> (1)
+-0.464733983081137
+
+>  <r_j_beta_LUMO> (1)
+-0.0971925437256347
+
+>  <r_j_Polarizability> (1)
+8.73454338210128
+
+>  <r_j_QM_Dipole_(debye)> (1)
+0.0846676296976519
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-1.57810532944772e-09
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+-1.21872112236646e-08
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+0.084667629697651
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+2.68810344796389
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+49.0625176503703
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.07431579113924
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-12.5536738463187
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+1.48183020231196
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+4.98677269354525
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+21.1881505357229
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-129.929313614677
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-129.928369428785
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-129.951680614252
+
+>  <r_j_S2_Value> (1)
+0.753018441988289
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+1880.3557265028
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+1880.3557265028
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+1880.3557265028
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+$$$$

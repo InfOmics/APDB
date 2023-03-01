@@ -1,0 +1,171 @@
+8087_Diisopropylene glycol
+                    3D
+ Schrodinger Suite 2021-3.
+ 23 22  0  0  1  0            999 V2000
+   -2.0219    1.5537    0.0590 C   0  0  0  0  0  0
+   -0.5072    1.4482   -0.0421 C   0  0  0  0  0  0
+   -0.0343   -0.0013   -0.0165 C   0  0  0  0  0  0
+    1.3861    0.0095   -0.1058 O   0  0  0  0  0  0
+    1.9766   -1.2823   -0.0163 C   0  0  0  0  0  0
+    3.4902   -1.0984   -0.0428 C   0  0  0  0  0  0
+    4.2258   -2.4265    0.0596 C   0  0  0  0  0  0
+    3.9053   -0.2966    1.0579 O   0  0  0  0  0  0
+    0.0431    2.1622    1.0598 O   0  0  0  0  0  0
+   -2.5089    1.0623   -0.7891 H   0  0  0  0  0  0
+   -2.3182    2.6055    0.0706 H   0  0  0  0  0  0
+   -2.3726    1.0917    0.9873 H   0  0  0  0  0  0
+   -0.1676    1.8917   -0.9937 H   0  0  0  0  0  0
+   -0.3557   -0.4761    0.9242 H   0  0  0  0  0  0
+   -0.4676   -0.5672   -0.8568 H   0  0  0  0  0  0
+    1.6826   -1.7738    0.9249 H   0  0  0  0  0  0
+    1.6464   -1.9145   -0.8561 H   0  0  0  0  0  0
+    3.7482   -0.6043   -0.9951 H   0  0  0  0  0  0
+    3.9858   -3.0766   -0.7875 H   0  0  0  0  0  0
+    3.9558   -2.9385    0.9887 H   0  0  0  0  0  0
+    5.3043   -2.2506    0.0704 H   0  0  0  0  0  0
+    3.3355    0.4849    1.0515 H   0  0  0  0  0  0
+    0.9922    1.9766    1.0538 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1 10  1  0  0  0
+  1 11  1  0  0  0
+  1 12  1  0  0  0
+  2  3  1  0  0  0
+  2  9  1  0  0  0
+  2 13  1  0  0  0
+  3  4  1  0  0  0
+  3 14  1  0  0  0
+  3 15  1  0  0  0
+  4  5  1  0  0  0
+  5  6  1  0  0  0
+  5 16  1  0  0  0
+  5 17  1  0  0  0
+  6  7  1  0  0  0
+  6  8  1  0  0  0
+  6 18  1  0  0  0
+  7 19  1  0  0  0
+  7 20  1  0  0  0
+  7 21  1  0  0  0
+  8 22  1  0  0  0
+  9 23  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+333
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+>  <r_j_Gas_Phase_Energy> (1)
+-462.914906447962
+
+>  <r_j_Final_Energy> (1)
+-462.914906447962
+
+>  <r_j_HOMO> (1)
+-0.272853885656354
+
+>  <r_j_LUMO> (1)
+0.0186021802419728
+
+>  <r_j_Polarizability> (1)
+88.2685325358653
+
+>  <r_j_QM_Dipole_(debye)> (1)
+2.67228357930349
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-1.04543030535622
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+-1.63989916512904
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-1.8327317678992
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+49.215606174223
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3754.19644267742
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+66.7770317977465
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+127.147118519106
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+99.3925290430678
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+7.31269148436745
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-22.3211910498232
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+6.72020589554017
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+39.8620574694844
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+37.6738126137452
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-462.701575285941
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-462.700631100049
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-462.747855698164
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+-2.34211
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+$$$$

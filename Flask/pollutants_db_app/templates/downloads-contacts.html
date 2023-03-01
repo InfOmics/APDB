@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="APDB Web App">
+
+    <!-- Import CSS stylesheet --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    <!-- Import Bootstrap JS plugins --> 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Import JS libraries --> 
+    <script src="https://code.jquery.com/jquery-3.5.1.js" crossorigin="anonymous"></script>
+
+    <!-- Import JS scripts --> 
+    <script src="{{ url_for('static', filename='js/downloads.js') }}"></script>
+
+  </head>
+  
+  <body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarToggle">
+        <ul class="navbar navbar-nav">
+          <li class="nav-item">
+              <a class="nav-link" href="/apdb/home" target="_self">Home<span class="sr-only">(current)</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/apdb/statistics" target="_self">Statistics</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/apdb/documentation" target="_self">Documentation</a>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="/apdb/downloads-contacts" target="_self">Downloads/Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content">
+
+      <div class="row" style="justify-content: center"> 
+        <div class="col-sm-9 col-md-9 col-lg-9">
+
+          <h2>APDB: Database of Air Pollutants</h2>
+          <h3>Downloads/Contacts</h3>
+
+          <p style="margin-top: 40px;">
+            <strong>Data Download</strong><br>
+              In order to download the whole database, SQL and/or CSV format, click here: 
+              <button type="button" id="db_download" name="sql">.sql</button>
+              <button type="button" id="db_download" name="zip">.csv</button>
+          </p>
+
+        </div> <!-- col-sm-9 col-md-9 col-lg-9 -->
+      </div> <!-- row -->
+
+      <hr> 
+
+      <div class="row" style="justify-content: center">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+
+          <strong>Project Team</strong><br><br>
+          <ul>
+
+            <li>
+              Eva Viesi: PhD in Computer Science, Department of Computer Science, University of Verona, Italy. 
+              <br><strong>eva [dot] viesi [at] univr [dot] it</strong>
+            </li>
+
+            <br>
+
+            <li>
+              Davide Sardina: Post Doc in Bio & Molecular informatics, Molecular Informatics Unit, Ri.MED Foundation, Palermo, Italy. 
+              <br><strong>dssardina [at] fondazionerimed [dot] com</strong>
+            </li>
+
+            <br>
+
+            <li>
+              Ugo Perricone: Group Leader in Molecular Informatics, Molecular Informatics Unit, Ri.MED Foundation, Palermo, Italy. 
+              <br><strong>uperricone [at] fondazionerimed [dot] com</strong>
+            </li>
+
+            <br>
+
+            <li>
+              Rosalba Giugno: Associate Professor in Computer Science, Department of Computer Science, University of Verona, Italy. 
+              <br><strong>rosalba [dot] giugno [at] univr [dot] it</strong>
+            </li>
+
+          </ul>
+
+        </div> <!-- col-sm-12 col-md-12 col-lg-12 -->
+      </div>
+   
+
+      <div class="info-message">
+        <p class="info-message-text"></p>
+      </div>
+
+    </div><!-- content -->
+  </body>
+</html>
+

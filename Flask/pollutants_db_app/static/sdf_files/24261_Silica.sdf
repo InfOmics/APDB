@@ -1,0 +1,98 @@
+24261_Silica
+                    3D
+ Schrodinger Suite 2021-3.
+  3  2  0  0  1  0            999 V2000
+    0.0000    0.0000    1.5201 O   0  0  0  0  0  0
+    0.0000    0.0000    0.0000 Si  0  0  0  0  0  0
+    0.0000    0.0000   -1.5201 O   0  0  0  0  0  0
+  1  2  2  0  0  0
+  2  3  2  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+73
+
+>  <r_j_Gas_Phase_Energy> (1)
+-440.027640709003
+
+>  <r_j_Final_Energy> (1)
+-440.027640709003
+
+>  <r_j_Polarizability> (1)
+26.1415875180027
+
+>  <r_j_QM_Dipole_(debye)> (1)
+0.000153055842257878
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-4.16647061666376e-06
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+1.41460001939849e-06
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+0.000152992582430176
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+4.30299394449616
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+55.3027710313172
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.63162174377786
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-13.8568994392094
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.03913615495059
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+8.81222428468446
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+23.3877409012374
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-440.017533881293
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-440.016589695401
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-440.042865826633
+
+>  <r_j_HOMO> (1)
+-0.351134233837505
+
+>  <r_j_LUMO> (1)
+-0.13681726937662
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+298.894665736538
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+1430.08005807007
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+298.903037256842
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+$$$$

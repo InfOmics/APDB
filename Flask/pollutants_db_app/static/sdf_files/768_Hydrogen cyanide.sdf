@@ -1,0 +1,98 @@
+768_Hydrogen cyanide
+                    3D
+ Schrodinger Suite 2021-3.
+  3  2  0  0  1  0            999 V2000
+    1.9199   -0.4512    0.0000 N   0  0  0  0  0  0
+    2.9221    0.1273    0.0000 C   0  0  0  0  0  0
+    3.8483    0.6619    0.0000 H   0  0  0  0  0  0
+  1  2  3  0  0  0
+  2  3  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+55
+
+>  <r_j_Gas_Phase_Energy> (1)
+-93.4584702698781
+
+>  <r_j_Final_Energy> (1)
+-93.4584702698781
+
+>  <r_j_Polarizability> (1)
+14.6321531898158
+
+>  <r_j_QM_Dipole_(debye)> (1)
+2.97609489784103
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+2.57754458269866
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+1.48775158045831
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-2.86323996196447e-08
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+10.1208595636568
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+48.0799996899219
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.179650374024
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-12.1554015335262
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+1.58716478519672
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+6.34267948554894
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+20.5159446284353
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-93.439812345323
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-93.4388681594308
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-93.4617125189072
+
+>  <r_j_HOMO> (1)
+-0.369310305324409
+
+>  <r_j_LUMO> (1)
+6.83887368819878e-05
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+780.395097381136
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3397.00179973987
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+780.413839943249
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+$$$$

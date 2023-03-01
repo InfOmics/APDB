@@ -1,0 +1,79 @@
+23995_Zirconium
+                    3D
+ Schrodinger Suite 2021-3.
+  1  0  0  0  1  0            999 V2000
+    0.0000    0.0000    0.0000 Zr  0  0  0  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+lacv3p**
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+31
+
+>  <r_j_Gas_Phase_Energy> (1)
+-46.3821792175515
+
+>  <r_j_Final_Energy> (1)
+-46.3821792175515
+
+>  <r_j_HOMO> (1)
+-0.152571524247267
+
+>  <r_j_LUMO> (1)
+-0.10614330004896
+
+>  <r_j_Polarizability> (1)
+116.497975586566
+
+>  <r_j_QM_Dipole_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+0
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+39.4008366520628
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+1.48121397206819
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-10.2661454757443
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+0.888728383240912
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+2.98080960335707
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+17.3272492518585
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-46.3807629387131
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-46.3798187528209
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-46.3985393618466
+
+$$$$

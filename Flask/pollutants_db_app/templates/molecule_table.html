@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="APDB Web App">
+    
+    <!-- Import CSS stylesheet --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" media="all" href="https://s3.amazonaws.com/dynatable-docs-assets/css/jquery.dynatable.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/periodic.css') }}">
+
+    <!-- Import Bootstrap JS plugins --> 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+    <!-- Import JS libraries --> 
+    <script type='text/javascript' src='https://s3.amazonaws.com/dynatable-docs-assets/js/jquery.dynatable.js'></script>  
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--download icon-->
+
+    <!-- Import JS scripts --> 
+    <script src="{{ url_for('static', filename='js/browseTables.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/search.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/filterColumns.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/downloads.js') }}"></script>
+
+  </head>
+
+  <body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarToggle">
+        <ul class="navbar navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/apdb/home" target="_self">Home<span class="sr-only">(current)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/apdb/statistics" target="_self">Statistics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/apdb/documentation" target="_self">Documentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/apdb/downloads-contacts" target="_self">Downloads/Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content"> 
+      <div class="wrapper" id="elements">
+        <ul class="main">
+          
+          <!-- ROW 1 -->
+          
+          <li data-pos="1" class="type-0 cat-2">H</li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li data-pos="2" class="type-2 cat-2">He</li>
+          
+          <!-- ROW 2 -->
+          
+          <li data-pos="3" class="type-3 cat-0">Li</li>
+          <li data-pos="4" class="type-4 cat-0">Be</li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li data-pos="5" class="type-10 cat-0">B</li>
+          <li data-pos="6" class="type-5 cat-0">C</li>
+          <li data-pos="7" class="type-5 cat-2">N</li>
+          
+          <li data-pos="8" class="type-5 cat-2">O</li>
+          <li data-pos="9" class="type-7 cat-2">F</li>
+          <li data-pos="10"class="type-2 cat-2">Ne</li>
+          
+          <!-- ROW 3 -->
+          
+          <li data-pos="11" class="type-3 cat-0">Na</li>
+          <li data-pos="12" class="type-4 cat-0">Mg</li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li class="empty"></li>
+          
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li data-pos="13" class="type-11 cat-0">Al</li>
+          <li data-pos="14" class="type-10 cat-0">Si</li>
+          <li data-pos="15" class="type-5 cat-0">P</li>
+          
+          <li data-pos="16" class="type-5 cat-0">S</li>
+          <li data-pos="17" class="type-7 cat-2">Cl</li>
+          <li data-pos="18" class="type-2 cat-2">Ar</li>
+          
+          <!-- ROW 4 -->
+          
+          <li data-pos="19" class="type-3 cat-0">K</li>
+          <li data-pos="20" class="type-4 cat-0">Ca</li>
+          <li data-pos="21" class="type-6 cat-0">Sc</li>
+          <li data-pos="22" class="type-6 cat-0">Ti</li>
+          <li data-pos="23" class="type-6 cat-0">V</li>
+          
+          <li data-pos="24" class="type-6 cat-0">Cr</li>
+          <li data-pos="25" class="type-6 cat-0">Mn</li>
+          <li data-pos="26" class="type-6 cat-0">Fe</li>
+          <li data-pos="27" class="type-6 cat-0">Co</li>
+          <li data-pos="28" class="type-6 cat-0">Ni</li>
+          
+          <li data-pos="29" class="type-6 cat-0">Cu</li>
+          <li data-pos="30" class="type-6 cat-0">Zn</li>
+          <li data-pos="31" class="type-11 cat-0">Ga</li>
+          <li data-pos="32" class="type-10 cat-0">Ge</li>
+          <li data-pos="33" class="type-10 cat-0">As</li>
+          
+          <li data-pos="34" class="type-5 cat-0">Se</li>
+          <li data-pos="35" class="type-7 cat-1">Br</li>
+          <li data-pos="36" class="type-2 cat-2">Kr</li>
+          
+          <!-- ROW 5 -->
+          
+          <li data-pos="37" class="type-3 cat-0">Rb</li>
+          <li data-pos="38" class="type-4 cat-0">Sr</li>
+          <li data-pos="39" class="type-6 cat-0">Y</li>
+          <li data-pos="40" class="type-6 cat-0">Zr</li>
+          <li data-pos="41" class="type-6 cat-0">Nb</li>
+          
+          <li data-pos="42" class="type-6 cat-0">Mo</li>
+          <li data-pos="43" class="type-6 cat-0">Tc</li>
+          <li data-pos="44" class="type-6 cat-0">Ru</li>
+          <li data-pos="45" class="type-6 cat-0">Rh</li>
+          <li data-pos="46" class="type-6 cat-0">Pd</li>
+          
+          <li data-pos="47" class="type-6 cat-0">Ag</li>
+          <li data-pos="48" class="type-6 cat-0">Cd</li>
+          <li data-pos="49" class="type-11 cat-0">In</li>
+          <li data-pos="50" class="type-11 cat-0">Sn</li>
+          <li data-pos="51" class="type-10 cat-0">Sb</li>
+          
+          <li data-pos="52" class="type-10 cat-0">Te</li>
+          <li data-pos="53" class="type-7 cat-0">I</li>
+          <li data-pos="54" class="type-2 cat-2">Xe</li>
+          
+          <!-- ROW 6 -->
+          
+          <li data-pos="55" class="type-3 cat-0">Cs</li>
+          <li data-pos="56" class="type-4 cat-0">Ba</li>
+          <li data-pos="57-71" class="type-8">La-Lu</li>
+          <li data-pos="72" class="type-6 cat-0">Hf</li>
+          <li data-pos="73" class="type-6 cat-0">Ta</li>
+          
+          <li data-pos="74" class="type-6 cat-0">W</li>
+          <li data-pos="75" class="type-6 cat-0">Re</li>
+          <li data-pos="76" class="type-6 cat-0">Os</li>
+          <li data-pos="77" class="type-6 cat-0">Ir</li>
+          <li data-pos="78" class="type-6 cat-0">Pt</li>
+          
+          <li data-pos="79" class="type-6 cat-0">Au</li>
+          <li data-pos="80" class="type-6 cat-1">Hg</li>
+          <li data-pos="81" class="type-11 cat-0">Tl</li>
+          <li data-pos="82" class="type-11 cat-0">Pb</li>
+          <li data-pos="83" class="type-11 cat-0">Bi</li>
+          
+          <li data-pos="84" class="type-10 cat-0">Po</li>
+          <li data-pos="85" class="type-7 cat-0">At</li>
+          <li data-pos="86" class="type-2 cat-2">Rn</li>
+          
+          <!-- ROW 7 -->
+          
+          <li data-pos="87" class="type-3 cat-0">Fr</li>
+          <li data-pos="88" class="type-4 cat-0">Ra</li>
+          <li data-pos="89-103" class="type-9">Ac-Lr</li>
+          <li data-pos="104" class="type-6 cat-3">Rf</li>
+          <li data-pos="105" class="type-6 cat-3">Db</li>
+          
+          <li data-pos="106" class="type-6 cat-3">Sg</li>
+          <li data-pos="107" class="type-6 cat-3">Bh</li>
+          <li data-pos="108" class="type-6 cat-3">Hs</li>
+          <li data-pos="109" class="type-6 cat-3">Mt</li>
+          <li data-pos="110" class="type-6 cat-3">Ds</li>
+          
+          <li data-pos="111" class="type-6 cat-3">Rg</li>
+          <li data-pos="112" class="type-6 cat-3">Cn</li>
+          <li data-pos="113" class="type-11 cat-3">Nh</li>
+          <li data-pos="114" class="type-11 cat-3">Fl</li>
+          <li data-pos="115" class="type-11 cat-3">Mc</li>
+          
+          <li data-pos="116" class="type-11 cat-3">Lv</li>
+          <li data-pos="117" class="type-7 cat-3">Ts</li>
+          <li data-pos="118" class="type-2 cat-3">Og</li>
+
+          <!-- ROW 8 -->
+
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li data-pos="57" class="type-8 cat-3">La</li>
+          <li data-pos="58" class="type-8 cat-3">Ce</li>
+          <li data-pos="59" class="type-8 cat-3">Pr</li>
+          <li data-pos="60" class="type-8 cat-3">Nd</li>
+          <li data-pos="61" class="type-8 cat-3">Pm</li>
+          <li data-pos="62" class="type-8 cat-3">Sm</li>
+          <li data-pos="63" class="type-8 cat-3">Eu</li>
+          <li data-pos="64" class="type-8 cat-3">Gd</li>
+          <li data-pos="65" class="type-8 cat-3">Tb</li>
+          <li data-pos="66" class="type-8 cat-3">Dy</li>
+          <li data-pos="67" class="type-8 cat-3">Ho</li>
+          <li data-pos="68" class="type-8 cat-3">Er</li>
+          <li data-pos="69" class="type-8 cat-3">Tm</li>
+          <li data-pos="70" class="type-8 cat-3">Yb</li>
+          <li data-pos="71" class="type-8 cat-3">Lu</li>
+          <li class="empty"></li>
+
+          <!-- ROW 9 -->
+
+          <li class="empty"></li>
+          <li class="empty"></li>
+          <li data-pos="89" class="type-9 cat-3">Ac</li>
+          <li data-pos="90" class="type-9 cat-3">Th</li>
+          <li data-pos="91" class="type-9 cat-3">Pa</li>
+          <li data-pos="92" class="type-9 cat-3">U</li>
+          <li data-pos="93" class="type-9 cat-3">Np</li>
+          <li data-pos="94" class="type-9 cat-3">Pu</li>
+          <li data-pos="95" class="type-9 cat-3">Am</li>
+          <li data-pos="96" class="type-9 cat-3">Cm</li>
+          <li data-pos="97" class="type-9 cat-3">Bk</li>
+          <li data-pos="98" class="type-9 cat-3">Cf</li>
+          <li data-pos="99" class="type-9 cat-3">Es</li>
+          <li data-pos="100" class="type-9 cat-3">Fm</li>
+          <li data-pos="101" class="type-9 cat-3">Md</li>
+          <li data-pos="102" class="type-9 cat-3">No</li>
+          <li data-pos="103" class="type-9 cat-3">Lr</li>
+          <li class="empty"></li>
+
+        </ul>
+      </div> <!-- wrapper -->
+
+      <h3 class="panel-title" style="margin-top: 10px;">Molecules list</h3>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+
+          <div class="row"> 
+
+            <div class="col-sm-5 col-md-5 col-lg-5">
+              <form id="columnCheckboxes">
+
+                <dl class="dl-horizontal">
+  
+                  <dd>
+                    <input type="checkbox" name="mcol1" checked="checked"/> <b>Chemical Name</b> <br/>
+                    <input type="checkbox" name="mcol2" checked="checked"/> <b>CAS</b> <br/>
+                    <input type="checkbox" name="mcol3" checked="checked"/> <b>InChIKey</b> <br/>
+                  </dd>
+
+                  <dd>
+                    <input type="checkbox" name="mcol4" checked="checked"/> <b>Molecular Formula</b> <br/>
+                    <input type="checkbox" name="mcol5" checked="checked"/> <b>Atoms</b> <br/>
+                    <input type="checkbox" name="mcol6" checked="checked"/> <b>Molecule Type</b> <br/>
+                  </dd>
+  
+                </dl>
+
+              </form>
+            </div> <!-- col-sm-5 col-md-5 col-lg-5-->
+
+            <div class="col-md-3" id="rightCol"></div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+
+              <dl class="dl-horizontal">
+
+                <dd>
+                  <form id="id_option_form" name="id_option_form" method="get">
+                    <input type="text" class="form-option" name="mol_id_option" id="mol_id_option" list="id_options" autocomplete="off" required placeholder=" {{ placeholder }}">
+                    <input type="hidden" id="mol_id_list" name="mol_id_list" value="{{ id_options }}">
+                    <datalist id="id_options">
+                      {% for id_option in id_options %}
+                        <option value="{{ id_option }}">{{ id_option }}</option>
+                      {% endfor %}
+                    </datalist>
+                  </form> <!-- first form -->
+                </dd>
+
+                <dd> 
+                  <form id="id_selection_form" name="id_selection_form" method="post">
+                    <div class="input-group">
+                      <input type="text" class="form-selection" name="mol_id_selection" id="mol_id_selection" list="molecule_ids" autocomplete="off" required placeholder=" {{ selected_placeholder }}"/>
+                      <datalist id="molecule_ids">
+                        {% for id in molecule_ids %}
+                          <option value="{{ id }}">{{ id }}</option>
+                        {% endfor %}
+                      </datalist>
+                      <button type="submit" class="btn btn-default" id="submit_form" name="submit_form">Search</button>
+                    </div> <!-- input-group -->
+                  </form> <!-- second form -->
+                </dd>
+
+              </dl> 
+
+            </div> <!-- col-sm-4 col-md-4 col-lg-4 -->
+          </div> <!-- row -->
+
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <table id="molecule_table" class="table table-striped table-bordered" cellspacing="0">
+
+              <thead>
+                <tr>
+                  <th class="mcol1" style="width: 18%" >Chemical Name</th>
+                  <th style="width: 9%" >CID</th>
+                  <th class="mcol2" style="width: 10%" >CAS</th>
+                  <th class="mcol3" style="width: 15%" >InChIKey</th>
+                  <th style="width: 15%">Canonical SMILES</th>
+                  <th class="mcol4" style="width: 13%" >Molecular Formula</th>
+                  <th class="mcol5" style="width: 10%" >Atoms</th>
+                  <th class="mcol6" style="width: 10%" >Molecule Type</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {% for row in molecules %} 
+                <tr>
+                  <td class="mcol1" >{{ row[0] }}</td>
+                  <td ><a role="link" >{{ row[1] }}</a></td> 
+                  <td class="mcol2" >{{ row[2] }}</td>
+                  <td class="mcol3" >{{ row[3] }}</td>
+                  <td >{{ row[4] }}</td>
+                  <td class="mcol4" >{{ row[5] }}</td>
+                  <td class="mcol5" >{{ row[6] }}</td>
+                  <td class="mcol6" >{{ row[7] }}</td>
+                </tr> 
+                {% endfor %}
+              </tbody>
+
+              <tfoot>
+                <tr>
+                  <th class="mcol1" >Chemical Name</th>
+                  <th >CID</th>
+                  <th class="mcol2" >CAS</th>
+                  <th class="mcol3" >InChIKey</th>
+                  <th >Canonical SMILES</th>
+                  <th class="mcol4" >Molecular Formula</th>
+                  <th class="mcol5" >Atoms</th>
+                  <th class="mcol6" >Molecule Type</th>
+                </tr>
+              </tfoot>
+
+            </table> <!-- table -->
+          </div> <!-- col-sm-12 col-md-12 col-lg-12 -->
+
+          <form action="/apdb/home/browse-molecules/download" method="post">
+            <button class="download_btn"><i class="fa fa-download"></i> Download</button>
+            <input type="hidden" id="molecule_download" name="molecule_download" value="{{ molecules }}">
+            <input type="hidden" id="header" name="header" value="">
+          </form>
+
+        </div> <!-- panel-body -->
+      </div> <!-- panel panel-default -->	
+    </div> <!-- content -->
+  </body>
+</html>

@@ -1,0 +1,171 @@
+36188_2,3,3',4,4'-Pentachlorobiphenyl
+                    3D
+ Schrodinger Suite 2021-3.
+ 22 23  0  0  1  0            999 V2000
+   -0.7139   -1.2048    0.0219 C   0  0  0  0  0  0
+   -2.1044   -1.2029   -0.0074 C   0  0  0  0  0  0
+   -2.8090    0.0025   -0.0275 C   0  0  0  0  0  0
+   -2.1049    1.2143   -0.0183 C   0  0  0  0  0  0
+   -0.7094    1.2061    0.0114 C   0  0  0  0  0  0
+   -0.0050    0.0009    0.0318 C   0  0  0  0  0  0
+    1.4881    0.0050    0.0383 C   0  0  0  0  0  0
+    2.2246   -0.0019    1.2333 C   0  0  0  0  0  0
+    3.6325   -0.0032    1.2201 C   0  0  0  0  0  0
+    4.2971    0.0027   -0.0175 C   0  0  0  0  0  0
+    3.5733    0.0096   -1.2082 C   0  0  0  0  0  0
+    2.1846    0.0107   -1.1739 C   0  0  0  0  0  0
+    6.0426    0.0015   -0.1101 Cl  0  0  0  0  0  0
+    4.5356   -0.0119    2.7071 Cl  0  0  0  0  0  0
+    1.3634   -0.0099    2.7549 Cl  0  0  0  0  0  0
+   -2.9295    2.7559   -0.0441 Cl  0  0  0  0  0  0
+   -4.5561   -0.0466   -0.0649 Cl  0  0  0  0  0  0
+   -0.1760   -2.1469    0.0412 H   0  0  0  0  0  0
+   -2.6583   -2.1347   -0.0144 H   0  0  0  0  0  0
+   -0.1771    2.1504    0.0226 H   0  0  0  0  0  0
+    4.1066    0.0142   -2.1515 H   0  0  0  0  0  0
+    1.6214    0.0159   -2.1012 H   0  0  0  0  0  0
+  1  6  1  0  0  0
+  1  2  2  0  0  0
+  1 18  1  0  0  0
+  2  3  1  0  0  0
+  2 19  1  0  0  0
+  3  4  2  0  0  0
+  3 17  1  0  0  0
+  4  5  1  0  0  0
+  4 16  1  0  0  0
+  5  6  2  0  0  0
+  5 20  1  0  0  0
+  6  7  1  0  0  0
+  7 12  1  0  0  0
+  7  8  2  0  0  0
+  8  9  1  0  0  0
+  8 15  1  0  0  0
+  9 10  2  0  0  0
+  9 14  1  0  0  0
+ 10 11  1  0  0  0
+ 10 13  1  0  0  0
+ 11 12  2  0  0  0
+ 11 21  1  0  0  0
+ 12 22  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+445
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+>  <r_j_Gas_Phase_Energy> (1)
+-2761.59943832497
+
+>  <r_j_Final_Energy> (1)
+-2761.59943832497
+
+>  <r_j_HOMO> (1)
+-0.260513655488779
+
+>  <r_j_LUMO> (1)
+-0.058124375524019
+
+>  <r_j_Polarizability> (1)
+200.497958881851
+
+>  <r_j_QM_Dipole_(debye)> (1)
+2.36759282338603
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0.587383780112026
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+-1.21782214907124
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-1.94354966117201
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+36.609325859705
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3169.12980519517
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+51.1022323672198
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+83.2352072479519
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+122.330979208137
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+9.79697980631115
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-26.6760016445948
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+9.20449421748387
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+55.076689765541
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+45.0238826861519
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-2761.45212628286
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-2761.45118209697
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-2761.50930549302
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+29.0242
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+$$$$

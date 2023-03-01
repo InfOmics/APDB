@@ -1,0 +1,100 @@
+19660_Carbonate
+                    3D
+ Schrodinger Suite 2021-3.
+  4  3  0  0  1  0            999 V2000
+    0.6566   -1.1373    0.0000 O   0  5  0  0  0  0
+   -1.3132    0.0000    0.0000 O   0  5  0  0  0  0
+    0.6566    1.1373    0.0000 O   0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0
+  1  4  1  0  0  0
+  2  4  1  0  0  0
+  3  4  2  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+92
+
+>  <r_j_Gas_Phase_Energy> (1)
+-263.733446515214
+
+>  <r_j_Final_Energy> (1)
+-263.733446515214
+
+>  <r_j_Polarizability> (1)
+24.4842265497869
+
+>  <r_j_QM_Dipole_(debye)> (1)
+0.000267662654297529
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0.000267346588976818
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+-1.2907661700005e-05
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+1.5780169506656e-06
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+8.48567100697148
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+59.01756082845
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.60336442959072
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-14.9927213314117
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.01087884076345
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+8.92076260059994
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+25.3047865030561
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-263.716719198178
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-263.715775012285
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-263.743816160033
+
+>  <r_j_HOMO> (1)
+0.266273216259798
+
+>  <r_j_LUMO> (1)
+0.554372016638529
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+659.485554553587
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+1370.70977057014
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+660.253604224174
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+$$$$

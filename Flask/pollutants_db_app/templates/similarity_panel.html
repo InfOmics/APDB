@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="APDB Web App">
+
+        <!-- Import CSS stylesheet --> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/plot.css') }}">
+
+        <!-- Import Bootstrap JS plugins --> 
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+        <!-- Import JS libraries --> 
+        <script src="https://code.jquery.com/jquery-3.5.1.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--download icon-->
+
+        <!-- JS scripts --> 
+        <script src="{{ url_for('static', filename='js/search.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/navs.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/downloads.js') }}"></script>
+
+        <!-- Load plotly images -->
+        <script> 
+            $(function(){
+              $("#includeFingerprintsBitsKmeans").load("{{ url_for('static', filename='img/fingerprints_bits_kmeans.html') }}"); 
+              $("#includeFingerprintsBitsLegend").load("{{ url_for('static', filename='img/fingerprints_bits_legend.html') }}"); 
+              $("#includeFingerprintsCountsKmeans").load("{{ url_for('static', filename='img/fingerprints_counts_kmeans.html') }}"); 
+              $("#includeFingerprintsCountsLegend").load("{{ url_for('static', filename='img/fingerprints_counts_legend.html') }}"); 
+              $("#includeMolecularDescKmeans").load("{{ url_for('static', filename='img/molecular_desc_kmeans.html') }}"); 
+              $("#includeMolecularDescLegend").load("{{ url_for('static', filename='img/molecular_desc_legend.html') }}"); 
+              $("#includeQuantumPropsKmeans").load("{{ url_for('static', filename='img/quantum_props_kmeans.html') }}");
+              $("#includeQuantumPropsLegend").load("{{ url_for('static', filename='img/quantum_props_legend.html') }}");  
+            });
+        </script> 
+
+    </head>
+
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-dark" style="background-color: #db3434;">
+            <button class="btn btn-link d-xs-block d-sm-block d-md-none d-lg-none " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarNav">
+                <ul class="navbar navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/apdb/home" target="_self">Home<span class="sr-only">(current)</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/apdb/statistics" target="_self">Statistics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/apdb/documentation" target="_self">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/apdb/downloads-contacts" target="_self">Downloads/Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="content">
+
+                <h3 class="panel-title">Similarity Spaces</h3>
+                <div class="row">
+                
+                    <div class="col-sm-4 col-md-4 col-lg-3">
+
+                        <div id="similarity_search">SEARCH SIMILAR</div>
+                        <textarea id="molecule_id" name="molecule_id" rows="2" placeholder="Search by PubChem CID or InChIKey"></textarea>
+                        <input type="hidden" name="molecule_ids" id="molecule_ids" value = "{{ molecule_ids }}">
+                        
+                        <div class="info-alert">
+                            <p class="info-alert-text"></p>
+                        </div> <!-- info-alert -->
+
+                    </div> <!-- col-sm-4 col-md-4 col-lg-3 -->
+
+                    <div class="col-sm-12 col-md-12 col-lg-9">
+                        <div class="tabbable">
+
+                            <ul class="nav nav-pills" id ="spaces_tab">
+
+                                <li><a href="#pane1" data-toggle="tab" class="active">Fingerprints Bits</a>
+                                    <button class="fa fa-download fa-lg" id="model_download" name="FB" title="Click to save the model"></button>
+                                </li>
+                                <li><a href="#pane2" data-toggle="tab">Fingerprints Counts</a>
+                                    <button class="fa fa-download fa-lg" id="model_download" name="FC" title="Click to save the model"></button>
+                                </li>
+                                <li><a href="#pane3" data-toggle="tab">Molecular Descriptors</a>
+                                    <button class="fa fa-download fa-lg" id="model_download" name="MD" title="Click to save the model"></button>
+                                </li>
+                                <li><a href="#pane4" data-toggle="tab">Quantum Properties</a>
+                                    <button class="fa fa-download fa-lg" id="model_download" name="QP" title="Click to save the model"></button>
+                                </li>
+                            
+                                <input type="hidden" name="model_download" id="model_download" value="">
+                            </ul>
+                            
+                        <div> <!-- tabbable -->
+
+                        <div class="tab-content">
+                            
+                            <div id="pane1" class="tab-pane active">
+                                <div id="includeFingerprintsBitsKmeans"></div>
+                                <div class="tab-legend" id="includeFingerprintsBitsLegend"></div>
+                                
+                            </div> <!-- tab-pane -->
+
+                            <div id="pane2" class="tab-pane">
+                                <div id="includeFingerprintsCountsKmeans"></div>
+                                <div class="tab-legend" id="includeFingerprintsCountsLegend"></div>
+
+                            </div> <!-- tab-pane -->
+
+                            <div id="pane3" class="tab-pane">
+                                <div id="includeMolecularDescKmeans"></div>
+                                <div class="tab-legend" id="includeMolecularDescLegend"></div>
+
+                            </div> <!-- tab-pane -->
+                            
+                            <div id="pane4" class="tab-pane">
+                                <div id="includeQuantumPropsKmeans"></div>
+                                <div class="tab-legend" id="includeQuantumPropsLegend"></div>
+                                
+                            </div> <!-- tab-pane -->
+
+                        </div> <!-- tab-content -->    
+                    </div> <!-- col-sm-12 col-md-12 col-lg-9 -->
+                </div> <!-- row -->
+
+                <div class="info-message">
+                    <p class="info-message-text"></p>
+                </div>
+
+            </div> <!-- content -->
+        </div> <!-- container -->
+   </body>
+</html>

@@ -1,0 +1,79 @@
+23974_Cerium
+                    3D
+ Schrodinger Suite 2021-3.
+  1  0  0  0  1  0            999 V2000
+    0.0000    0.0000    0.0000 Ce  0  0  0  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+csdz**
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+40
+
+>  <r_j_Gas_Phase_Energy> (1)
+-38.5403959931204
+
+>  <r_j_Final_Energy> (1)
+-38.5403959931204
+
+>  <r_j_Polarizability> (1)
+100.649945418732
+
+>  <r_j_QM_Dipole_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+0
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+40.718999728319
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+1.48121397206819
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-10.6591557969301
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+0.888728383240912
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+2.98080960335707
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+17.9905739446391
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-38.538979714282
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-38.5380355283897
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-38.5573824392324
+
+>  <r_j_HOMO> (1)
+-0.00775136953862732
+
+>  <r_j_LUMO> (1)
+0.0133834684656039
+
+$$$$

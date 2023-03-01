@@ -1,0 +1,181 @@
+17151_Tetrahydrofurfuryl Methacrylate
+                    3D
+ Schrodinger Suite 2021-3.
+ 26 26  0  0  1  0            999 V2000
+   -0.7172   -1.3857    0.0848 C   0  0  0  0  0  0
+   -0.0645   -0.0305    0.0321 C   0  0  0  0  0  0
+   -0.7352    1.1248   -0.0558 C   0  0  0  0  0  0
+    1.4293   -0.0615    0.0888 C   0  0  0  0  0  0
+    2.0743   -1.0882    0.1789 O   0  0  0  0  0  0
+    1.9986    1.1652    0.0317 O   0  0  0  0  0  0
+    3.4390    1.1905    0.0850 C   0  0  0  0  0  0
+    3.8483    2.6536    0.0338 C   0  0  0  0  0  0
+    3.3885    3.4897    1.2389 C   0  0  0  0  0  0
+    4.5463    4.4858    1.3965 C   0  0  0  0  0  0
+    5.7473    3.6064    1.0381 C   0  0  0  0  0  0
+    5.2826    2.7022    0.0270 O   0  0  0  0  0  0
+   -0.3773   -2.0103   -0.7477 H   0  0  0  0  0  0
+   -1.8057   -1.3006    0.0443 H   0  0  0  0  0  0
+   -0.4341   -1.9151    1.0003 H   0  0  0  0  0  0
+   -1.8204    1.1396   -0.0947 H   0  0  0  0  0  0
+   -0.2207    2.0778   -0.0913 H   0  0  0  0  0  0
+    3.7896    0.7200    1.0094 H   0  0  0  0  0  0
+    3.8541    0.6300   -0.7575 H   0  0  0  0  0  0
+    3.4729    3.0955   -0.9016 H   0  0  0  0  0  0
+    2.4163    3.9592    1.0742 H   0  0  0  0  0  0
+    3.3076    2.8536    2.1287 H   0  0  0  0  0  0
+    4.4472    5.3060    0.6768 H   0  0  0  0  0  0
+    4.6174    4.9179    2.3985 H   0  0  0  0  0  0
+    6.5972    4.1668    0.6347 H   0  0  0  0  0  0
+    6.0958    3.0408    1.9161 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1 13  1  0  0  0
+  1 14  1  0  0  0
+  1 15  1  0  0  0
+  2  3  2  0  0  0
+  2  4  1  0  0  0
+  3 16  1  0  0  0
+  3 17  1  0  0  0
+  4  5  2  0  0  0
+  4  6  1  0  0  0
+  6  7  1  0  0  0
+  7  8  1  0  0  0
+  7 18  1  0  0  0
+  7 19  1  0  0  0
+  8 12  1  0  0  0
+  8  9  1  0  0  0
+  8 20  1  0  0  0
+  9 10  1  0  0  0
+  9 21  1  0  0  0
+  9 22  1  0  0  0
+ 10 11  1  0  0  0
+ 10 23  1  0  0  0
+ 10 24  1  0  0  0
+ 11 12  1  0  0  0
+ 11 25  1  0  0  0
+ 11 26  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+399
+
+>  <i_j_Geometry_convergence_category> (1)
+1
+
+>  <r_j_Gas_Phase_Energy> (1)
+-577.262979426679
+
+>  <r_j_Final_Energy> (1)
+-577.262979426679
+
+>  <r_j_HOMO> (1)
+-0.246673255707171
+
+>  <r_j_LUMO> (1)
+-0.0503383757601705
+
+>  <r_j_Polarizability> (1)
+114.265360094997
+
+>  <r_j_QM_Dipole_(debye)> (1)
+3.18695235881551
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-1.43406957159833
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+2.68626524807242
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+0.940259973716816
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+59.8297854334797
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3200.50591907382
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+72.4976630674895
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+138.388193406126
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+106.910440209868
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+8.03591411174202
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-23.8394336368301
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+7.44342852291475
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+44.7020536930981
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+40.2363096864791
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-577.030581942814
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-577.029637756922
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-577.080434357249
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+1.645697
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+>  <s_epik_Chemistry_Notes> (1)
+This compound has an ester and may undergo hydrolysis at high or low pH.
+
+$$$$

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="APDB Web App">
+    
+    <!-- Import CSS stylesheet --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    <!-- Import Bootstrap JS plugins --> 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarToggle">
+        <ul class="navbar navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/apdb/home" target="_self">Home<span class="sr-only">(current)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/apdb/statistics" target="_self">Statistics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/apdb/documentation" target="_self">Documentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/apdb/downloads-contacts" target="_self">Downloads/Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+	
+    <br>
+    <div class="container">
+      <div class="content">
+    
+        <h2>APDB: Database of Air Pollutants</h2>
+        <h3>Browse</h3><br><br>
+
+        <div class="row justify-content-center">
+
+          <div class="col-sm-7 col-md-6 col-lg-6">
+            
+            <div class="thumbnail">
+              <div class="row">
+                <div class="col-sm-5 col-md-5 col-lg-5">
+                  <img src="{{ url_for('static', filename='img/molecule.png') }}" width = "180"  height="auto" style="margin-left: -20px;">
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                  <h3>molecular annotations</h3>
+                  <form id="data_browse" name="data_browse" action="/apdb/home/browse-molecules" method="get">
+                    <input type="submit" class="btn btn-default" id="molecule_button" name="molecule_button" value="Run">
+                  </form>
+                </div>
+              </div> <!-- row -->
+            </div> <!-- thumbnail -->
+          </div> <!-- col-sm-6 col-md-6 col-lg-6 -->
+                  
+          <div class="col-sm-7 col-md-6 col-lg-6">
+            <div class="thumbnail">
+              <div class="row">
+                <div class="col-sm-5 col-md-5 col-lg-5">
+                  <img src="{{ url_for('static', filename='img/target.png') }}" width = "120"  height="auto">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <h3>targets &<br>bioassays</h3>
+                  <form id="data_browse" name="data_browse" action="/apdb/home/browse-bioassays" method="get">
+                    <input type="submit" class="btn btn-default" id="bioassay_button" name="bioassay_button" value="Run">
+                  </form>
+                </div>
+              </div> <!-- row -->
+            </div> <!-- thumbnail -->
+          </div> <!-- col-sm-4 col-md-4 col-lg-4 -->
+        </div> <!-- row -->
+
+        <div class="row justify-content-center">                             
+              
+          <div class="col-sm-7 col-md-6 col-lg-6">
+            <div class="thumbnail justify-content-center">
+              <div class="row">
+                <div class="col-sm-5 col-md-5 col-lg-5">
+                  <img src="{{ url_for('static', filename='img/descriptor.png') }}" width = "120"  height="auto">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <h3>molecular descriptors</h3>
+                  <form id="data_browse" name="data_browse" action="/apdb/home/browse-descriptors" method="get">
+                    <input type="submit" class="btn btn-default" id="descriptor_button" name="descriptor_button" value="Run">
+                  </form>
+                </div> <!-- col-sm-6 col-md-6 col-lg-6 -->
+              </div> <!-- row -->
+            </div> <!-- thumbnail -->
+          </div> <!-- col-sm-4 col-md-4 col-lg-4 -->
+
+          <div class="col-sm-7 col-md-6 col-lg-6">
+            <div class="thumbnail">
+              <div class="row">
+                <div class="col-sm-5 col-md-5 col-lg-5">
+                  <img src="{{ url_for('static', filename='img/cosine_similarity.png') }}" width = "120"  height="auto" style="margin-top: 10px;">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <h3>molecular similarities</h3>
+                  <form id="data_browse" name="data_browse" action="/apdb/home/browse-similarities" method="get">
+                    <input type="submit" class="btn btn-default" id="similarity_button" name="similarity_button" value="Run">
+                  </form>
+                </div>
+              </div> <!-- row -->
+            </div> <!-- thumbnail -->
+          </div> <!-- col-sm-4 col-md-4 col-lg-4 -->        
+        </div> <!-- row -->
+      </div> <!-- content -->
+    </div> <!-- container -->
+  </body>
+</html>

@@ -1,0 +1,495 @@
+  /*
+   * Defining body attributes
+   */
+
+html, body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(0,0,0);
+    text-align: justify;
+    margin-top: 5px;
+  }
+
+
+  /*
+   * Centering the body content
+   */
+
+.content {
+    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+  }
+
+
+  /*
+   * Formatting the header area
+   */
+
+h1 {
+    background-color: rgb(255,255,255);
+    height: 35px;
+    width: 100%;
+    opacity: .9;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+h2 {
+    font-size: 2em;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-top: 3em;
+    position: relative;
+  }
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: 30px;
+    color: #999;
+  }
+
+h4 {
+    font-size: 1.3em;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #999;
+  }
+  
+
+  /*
+   * Formatting the navigation bar 
+   */
+
+nav {
+    height: 60px;
+  }  
+
+.navbar {
+    width: 100%;  
+    background-color: #db3434;
+  }
+
+
+  /*
+   * Defining thumbnail attributes
+   */
+
+.thumbnail {
+    width: 350px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    line-height: 1.428571429;
+    font-size: 14px; 
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%);
+  }
+
+/* thumbnail image */
+.thumbnail img {
+    position: relative;
+    top: 15px;
+    left: 15px;
+  }
+
+
+  /* 
+   * Defining panel attributes
+   */
+
+.panel {
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    width: 1320px;
+    margin: 15px;
+  }
+ 
+.panel-body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(254, 250, 250, 0);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.628571429;
+    color: #333;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+.panel-title {
+    margin-top: 80px;
+  }
+ 
+  /* 
+   * Defining table attributes
+   */
+
+.table {
+    table-layout: fixed;
+    word-wrap: break-word; 
+    width:100%;
+    font-size: 13px;  
+    text-align: left;
+  }
+ 
+.table th:nth-child(n) {
+    background:  #e95d5d;
+    color: white;
+    font-size: 14px; 
+    line-height: 13px;
+    vertical-align: middle;
+  }
+  
+.table td:nth-child(n) {
+    overflow: hidden;
+   line-height: 15px;
+   vertical-align: middle;
+  }
+
+/* linkable td */
+.table td:nth-child(n) > a {
+   color: #007bff; 
+   cursor: pointer;
+  }
+ 
+.dynatable-per-page-select {
+   margin-bottom: 10px;
+  }
+
+a.dynatable-page-link.dynatable-active-page {
+    background:  #f07373;
+    color: white;
+  }
+
+.dynatable-page-link {
+    color: black
+  }
+
+.dynatable-disabled-page {
+    color: #999;
+  }
+
+.table-scroll {
+    text-align: left; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#similar_item {
+    text-align: left; 
+    width: 250px; 
+    overflow-wrap: break-word;
+  }
+  
+#similar_cid {
+    color: #007bff; 
+    cursor: "pointer";
+  }
+
+#entry_title {
+    font-family: verdana, arial, sans-serif; 
+    font-size: 14px; 
+    color: #2a4765; 
+    text-align: center; 
+    padding-bottom: 20px;
+  }
+
+
+  /* 
+   * Formatting the search form
+   */
+
+.form-option {
+   height: 35px;
+   overflow: auto;
+   color: #3d4349;
+  }
+ 
+.form-selection {
+   width: 345px;
+   height: 35px;
+   color: #3d4349;
+  }
+     
+ /* submit button */
+.btn-default {
+    background-color: #f0f0f0;
+  }
+
+#submit_form {
+    font-size: 15px;
+    height: 35px;
+    width: 60px;
+    padding: 2px;
+  }
+ 
+
+  /* 
+   * Formatting the column form
+   */
+
+#columnCheckboxes {
+   font-size: 14px; 
+   column-count: 2; 
+   margin-inline-start: 10px;
+   margin-bottom: 5px;
+  }
+
+
+  /* 
+   * Formatting the div area
+   */
+
+div#threshold_search {
+    font-size: 16px; 
+    margin-top: 15px;
+    padding-left: 30px;
+  }
+
+.divpoints#legend {
+    margin-left: 40px;
+  }
+
+div#similar_text {
+    margin-bottom: 6px;
+  }
+ 
+  /*
+   * Formatting the alphafold area
+   */
+
+#alphafold {
+    margin-top: 70px;
+    text-align: center;
+  }
+
+
+  /* 
+   * Formatting the tab area
+   */
+
+.tabbable {
+    position: relative;
+    margin-top: 5px;
+    padding: 0px, 0px;
+    margin-left: -5px
+  }
+
+.nav-pills a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    left: 50px;
+  }
+
+.nav-pills a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.nav-pills a.active {
+    background-color: #e95d5d;
+    color: white;
+  }
+
+.tab-legend {
+    margin-top: -60px;
+    margin-left: -40px;
+  } 
+
+  /* 
+   * Formatting the textarea form
+   */
+
+textarea {
+    font-size: 15px;
+    word-spacing: 1px;
+    line-height: 20px;
+    border-style: solid none solid none;
+    border-top: 1px solid #1e1e1e;
+    border-bottom: 1px solid #1e1e1e;
+    padding-top: 10px;
+    position: relative;
+    width: 180px;
+    height: 80px;
+    resize: none;
+    outline: none;
+  }
+
+textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+
+/* similarity search */
+#similarity_search {
+    background-color: #e95d5d;
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+    font-weight: bold;
+    float: left;
+    border-radius: 4px; 
+    padding: 14px 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;  
+  }
+
+
+  /* 
+   * Formatting info text
+   */
+
+.info-alert-text {
+    color:#db3434; 
+    font-weight:bold; 
+    white-space: pre-wrap;
+    position: relative;
+    margin-left: 10px;
+  }
+
+
+.info-message-text {
+    color:#db3434; 
+    font-weight:bold; 
+    white-space: pre-wrap;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+  }
+
+  /* 
+   * Formatting the description list items
+   */
+
+.dl-horizontal#molecule {
+    margin-top: 40px;
+    inline-size: 210px;
+    overflow-wrap: break-word;
+  }
+
+.img-responsive {
+    width: 250px;
+    position: relative;
+    margin-left: 80px;
+  }
+
+textarea#targets {
+    border: none; 
+    height: 110px;
+    width: 210px;
+  }
+
+
+  /*
+   * Formatting the documentation nav
+   */
+
+ul.nav.nav-stacked.affix {
+    position: relative;
+    width: 150px;
+    font-size: 17px;
+  }
+
+.nav-stacked > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+  }
+
+.nav-stacked > li.active {
+    border-left: 3px solid #e95d5d;
+    background:white;
+    line-height: 10px;
+  }
+
+.nav-stacked > a, a:hover, a:focus, a:active {
+    text-decoration: none;
+  }
+
+#doc_img {
+    justify-content: center; 
+    margin-top: 20px; 
+    margin-bottom: 40px;
+  }
+
+
+  /*
+   * Defining download buttons attributes
+   */
+
+.download_btn {
+    background-color:  #f07373;
+    border: none;
+    color: white;
+    width: 100px;
+    padding: 6px 8px;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-left: 18px;
+  }
+
+/* darker background on focus */
+.download_btn:focus {
+    background-color:  #e95d5d; 
+  }
+
+/* molecules download button */
+#molecules_download {
+    background-color: #e95d5d;
+    color: white;
+    outline: none; 
+    border: none;
+    cursor: pointer;
+  }
+
+/* descriptor download button */
+#descriptor_download {
+    color:#e95d5d;
+    background-color: white;
+    border: none;
+    cursor: pointer; 
+    margin-top: 35px;
+  }
+
+/* model download button */
+#model_download {
+    color:#e95d5d;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    padding-left: 5px; 
+  }
+
+/* database download button */
+#db_download {
+    background-color: #e95d5d;
+    color: white;
+    font-weight: bold; 
+    border-radius: 6px;
+    border-color: white;
+    cursor: pointer;
+  }

@@ -1,0 +1,163 @@
+11583_Methyl n-butyl ketone
+                    3D
+ Schrodinger Suite 2021-3.
+ 19 18  0  0  1  0            999 V2000
+   -2.0964    1.3820    0.1116 C   0  0  0  0  0  0
+   -0.5691    1.4178    0.0054 C   0  0  0  0  0  0
+    0.0569    0.0185    0.0072 C   0  0  0  0  0  0
+    1.5958    0.0521   -0.0940 C   0  0  0  0  0  0
+    2.1611   -1.3614   -0.0519 C   0  0  0  0  0  0
+    2.3981   -1.9120    1.0070 O   0  0  0  0  0  0
+    2.3687   -2.0584   -1.3844 C   0  0  0  0  0  0
+   -2.5212    2.3909    0.1129 H   0  0  0  0  0  0
+   -2.4154    0.8837    1.0340 H   0  0  0  0  0  0
+   -2.5379    0.8349   -0.7293 H   0  0  0  0  0  0
+   -0.2739    1.9459   -0.9113 H   0  0  0  0  0  0
+   -0.1532    1.9978    0.8398 H   0  0  0  0  0  0
+   -0.2211   -0.5117    0.9265 H   0  0  0  0  0  0
+   -0.3568   -0.5658   -0.8267 H   0  0  0  0  0  0
+    1.8939    0.5635   -1.0177 H   0  0  0  0  0  0
+    2.0054    0.6040    0.7580 H   0  0  0  0  0  0
+    3.1876   -1.5713   -1.9280 H   0  0  0  0  0  0
+    1.4752   -1.9709   -2.0130 H   0  0  0  0  0  0
+    2.6141   -3.1090   -1.2235 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  8  1  0  0  0
+  1  9  1  0  0  0
+  1 10  1  0  0  0
+  2  3  1  0  0  0
+  2 11  1  0  0  0
+  2 12  1  0  0  0
+  3  4  1  0  0  0
+  3 13  1  0  0  0
+  3 14  1  0  0  0
+  4  5  1  0  0  0
+  4 15  1  0  0  0
+  4 16  1  0  0  0
+  5  6  2  0  0  0
+  5  7  1  0  0  0
+  7 17  1  0  0  0
+  7 18  1  0  0  0
+  7 19  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+268
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+>  <r_j_Gas_Phase_Energy> (1)
+-311.220006916066
+
+>  <r_j_Final_Energy> (1)
+-311.220006916066
+
+>  <r_j_HOMO> (1)
+-0.256000410537404
+
+>  <r_j_LUMO> (1)
+-0.027020148364643
+
+>  <r_j_Polarizability> (1)
+76.0033105100711
+
+>  <r_j_QM_Dipole_(debye)> (1)
+2.92929157827764
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-0.867988659282739
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+1.46851788702289
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-2.38134416945948
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+82.0819686207004
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3099.82998343751
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+142.119599997631
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+106.344379995825
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+88.9062943199335
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+5.91699946168494
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-20.5904121898032
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+5.32451387285766
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+30.4969158044379
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+34.7525958066904
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-311.042051205105
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-311.041107019213
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-311.083349268802
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+1.30847
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+$$$$

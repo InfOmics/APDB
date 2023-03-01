@@ -1,0 +1,176 @@
+13192_Hexamethylene diisocyanate
+                    3D
+ Schrodinger Suite 2021-3.
+ 24 23  0  0  1  0            999 V2000
+   -0.0069    0.0505    0.0451 C   0  0  0  0  0  0
+    1.5181   -0.0397   -0.0711 C   0  0  0  0  0  0
+    2.0316   -1.4829   -0.0661 C   0  0  0  0  0  0
+    3.5554   -1.5867   -0.1506 C   0  0  0  0  0  0
+    4.1776   -0.9801    1.0126 N   0  0  0  0  0  0
+    5.2651   -0.6043    1.3743 C   0  0  0  0  0  0
+    6.2674   -0.1983    1.8498 O   0  0  0  0  0  0
+   -0.5217    1.4932    0.0336 C   0  0  0  0  0  0
+   -2.0443    1.5968    0.1364 C   0  0  0  0  0  0
+   -2.6823    0.9749   -1.0101 N   0  0  0  0  0  0
+   -3.7751    0.5944   -1.3507 C   0  0  0  0  0  0
+   -4.7847    0.1822   -1.8054 O   0  0  0  0  0  0
+   -0.4759   -0.5022   -0.7788 H   0  0  0  0  0  0
+   -0.3319   -0.4433    0.9723 H   0  0  0  0  0  0
+    1.8446    0.4581   -0.9956 H   0  0  0  0  0  0
+    1.9865    0.5087    0.7561 H   0  0  0  0  0  0
+    1.6935   -1.9958    0.8430 H   0  0  0  0  0  0
+    1.6090   -2.0336   -0.9164 H   0  0  0  0  0  0
+    3.8565   -2.6398   -0.2059 H   0  0  0  0  0  0
+    3.9153   -1.0913   -1.0619 H   0  0  0  0  0  0
+   -0.0896    2.0515    0.8742 H   0  0  0  0  0  0
+   -0.1944    1.9985   -0.8837 H   0  0  0  0  0  0
+   -2.3913    1.1130    1.0588 H   0  0  0  0  0  0
+   -2.3454    2.6503    0.1823 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  8  1  0  0  0
+  1 13  1  0  0  0
+  1 14  1  0  0  0
+  2  3  1  0  0  0
+  2 15  1  0  0  0
+  2 16  1  0  0  0
+  3  4  1  0  0  0
+  3 17  1  0  0  0
+  3 18  1  0  0  0
+  4  5  1  0  0  0
+  4 19  1  0  0  0
+  4 20  1  0  0  0
+  5  6  2  0  0  0
+  6  7  2  0  0  0
+  8  9  1  0  0  0
+  8 21  1  0  0  0
+  8 22  1  0  0  0
+  9 10  1  0  0  0
+  9 23  1  0  0  0
+  9 24  1  0  0  0
+ 10 11  2  0  0  0
+ 11 12  2  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+383
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+>  <r_j_Gas_Phase_Energy> (1)
+-572.251591692213
+
+>  <r_j_Final_Energy> (1)
+-572.251591692213
+
+>  <r_j_HOMO> (1)
+-0.276743735997102
+
+>  <r_j_LUMO> (1)
+-0.0103652392966366
+
+>  <r_j_Polarizability> (1)
+113.677330384613
+
+>  <r_j_QM_Dipole_(debye)> (1)
+0.0549744807597284
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0.0246217219956039
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+0.0236059504196946
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-0.0431129150667855
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+48.2629234908634
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3033.0307914737
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+61.2163829235285
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+124.192742943185
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+110.560478878099
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+8.36638048345998
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-24.5972262940453
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+7.7738948946327
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+44.2510356399448
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+41.5153157441878
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-572.041289467073
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-572.040345281181
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-572.092876132671
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+-0.101509
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+>  <s_epik_Chemistry_Notes> (1)
+This compound has an imine and may undergo hydrolysis.
+
+$$$$

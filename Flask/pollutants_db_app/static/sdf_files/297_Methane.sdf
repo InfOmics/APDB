@@ -1,0 +1,102 @@
+297_Methane
+                    3D
+ Schrodinger Suite 2021-3.
+  5  4  0  0  1  0            999 V2000
+    2.5369    0.0000    0.0000 C   0  0  0  0  0  0
+    3.3094    0.4459   -0.6304 H   0  0  0  0  0  0
+    1.7645   -0.4460   -0.6304 H   0  0  0  0  0  0
+    2.0909    0.7725    0.6303 H   0  0  0  0  0  0
+    2.9829   -0.7724    0.6304 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  3  1  0  0  0
+  1  4  1  0  0  0
+  1  5  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+59
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+>  <r_j_Gas_Phase_Energy> (1)
+-40.5377371030852
+
+>  <r_j_Final_Energy> (1)
+-40.5377371030852
+
+>  <r_j_HOMO> (1)
+-0.394779448622201
+
+>  <r_j_LUMO> (1)
+0.0435756610924875
+
+>  <r_j_Polarizability> (1)
+15.3446006398328
+
+>  <r_j_QM_Dipole_(debye)> (1)
+1.88732531506347e-06
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+1.05248396850487e-06
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+1.5137803214824e-06
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+4.03414773170626e-07
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+1352.52505930546
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3095.27591923878
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+1352.71630296906
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+27.8425195650294
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+49.4145332857863
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.39160923545865
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-12.3413338636985
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+1.79912364663137
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+6.453122712435
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+20.8297621012625
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-40.4905001375433
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-40.489555951651
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-40.5130343911065
+
+$$$$

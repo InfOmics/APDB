@@ -1,0 +1,151 @@
+12586_1,3-dioxolane
+                    3D
+ Schrodinger Suite 2021-3.
+ 11 11  0  0  1  0            999 V2000
+   -0.3053    1.6141    2.0793 C   0  0  0  0  0  0
+    0.1581    0.1415    2.0468 C   0  0  0  0  0  0
+    1.5459    0.1727    2.3560 O   0  0  0  0  0  0
+    1.9591    1.5063    2.5696 C   0  0  0  0  0  0
+    0.8543    2.3706    2.4041 O   0  0  0  0  0  0
+   -1.0788    1.7844    2.8386 H   0  0  0  0  0  0
+   -0.6975    1.9427    1.1086 H   0  0  0  0  0  0
+   -0.3692   -0.4714    2.7886 H   0  0  0  0  0  0
+    0.0127   -0.3130    1.0587 H   0  0  0  0  0  0
+    2.3578    1.6094    3.5915 H   0  0  0  0  0  0
+    2.7447    1.7694    1.8435 H   0  0  0  0  0  0
+  1  5  1  0  0  0
+  1  2  1  0  0  0
+  1  6  1  0  0  0
+  1  7  1  0  0  0
+  2  3  1  0  0  0
+  2  8  1  0  0  0
+  2  9  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  4 10  1  0  0  0
+  4 11  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+169
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+>  <r_j_Gas_Phase_Energy> (1)
+-268.443049256354
+
+>  <r_j_Final_Energy> (1)
+-268.443049256354
+
+>  <r_j_HOMO> (1)
+-0.260877890763695
+
+>  <r_j_LUMO> (1)
+0.0214711195979726
+
+>  <r_j_Polarizability> (1)
+41.7016445685181
+
+>  <r_j_QM_Dipole_(debye)> (1)
+1.22275579970471
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-1.13659824424206
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+-0.351597740783868
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-0.28223253811893
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+-205.318511015098
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3015.72103128064
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+-174.541972899603
+
+>  <i_j_Num_Negative_Frequencies> (1)
+2
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+57.5257209779409
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+64.9588145755274
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.71367822297085
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-16.6537923427226
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.12119263414358
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+11.3210976903049
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+28.1083500709039
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-268.347995848455
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-268.347051662563
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-268.3779156917
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+-12.243
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+>  <s_epik_Chemistry_Notes> (1)
+This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+
+$$$$

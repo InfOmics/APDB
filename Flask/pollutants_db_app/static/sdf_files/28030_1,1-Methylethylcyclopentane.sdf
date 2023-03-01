@@ -1,0 +1,174 @@
+28030_1,1-Methylethylcyclopentane
+                    3D
+ Schrodinger Suite 2021-3.
+ 24 24  0  0  1  0            999 V2000
+   -0.6753    1.4198   -0.0052 C   0  0  0  0  0  0
+   -0.0098    0.0385   -0.0146 C   0  0  0  0  0  0
+    1.5319    0.0407   -0.0154 C   0  0  0  0  0  0
+    2.0913   -1.4007    0.0728 C   0  0  0  0  0  0
+    3.5378   -1.2563    0.5981 C   0  0  0  0  0  0
+    3.5676    0.0965    1.3721 C   0  0  0  0  0  0
+    2.1364    0.6729    1.2628 C   0  0  0  0  0  0
+    2.0768    0.7412   -1.2758 C   0  0  0  0  0  0
+   -1.7648    1.3252    0.0471 H   0  0  0  0  0  0
+   -0.4407    1.9930   -0.9076 H   0  0  0  0  0  0
+   -0.3529    2.0115    0.8581 H   0  0  0  0  0  0
+   -0.3500   -0.5242    0.8654 H   0  0  0  0  0  0
+   -0.3606   -0.5256   -0.8900 H   0  0  0  0  0  0
+    1.4886   -1.9706    0.7918 H   0  0  0  0  0  0
+    2.0329   -1.9309   -0.8845 H   0  0  0  0  0  0
+    3.8222   -2.1022    1.2312 H   0  0  0  0  0  0
+    4.2509   -1.2381   -0.2324 H   0  0  0  0  0  0
+    3.8711   -0.0299    2.4158 H   0  0  0  0  0  0
+    4.2928    0.7803    0.9193 H   0  0  0  0  0  0
+    2.1231    1.7676    1.2430 H   0  0  0  0  0  0
+    1.5388    0.3601    2.1290 H   0  0  0  0  0  0
+    3.1679    0.6786   -1.3337 H   0  0  0  0  0  0
+    1.8120    1.8029   -1.2915 H   0  0  0  0  0  0
+    1.6706    0.2784   -2.1825 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  9  1  0  0  0
+  1 10  1  0  0  0
+  1 11  1  0  0  0
+  2  3  1  0  0  0
+  2 12  1  0  0  0
+  2 13  1  0  0  0
+  3  7  1  0  0  0
+  3  4  1  0  0  0
+  3  8  1  0  0  0
+  4  5  1  0  0  0
+  4 14  1  0  0  0
+  4 15  1  0  0  0
+  5  6  1  0  0  0
+  5 16  1  0  0  0
+  5 17  1  0  0  0
+  6  7  1  0  0  0
+  6 18  1  0  0  0
+  6 19  1  0  0  0
+  7 20  1  0  0  0
+  7 21  1  0  0  0
+  8 22  1  0  0  0
+  8 23  1  0  0  0
+  8 24  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+325
+
+>  <i_j_Geometry_convergence_category> (1)
+3
+
+>  <r_j_Gas_Phase_Energy> (1)
+-314.623508441104
+
+>  <r_j_Final_Energy> (1)
+-314.623508441104
+
+>  <r_j_HOMO> (1)
+-0.303956563412439
+
+>  <r_j_LUMO> (1)
+0.021601207906424
+
+>  <r_j_Polarizability> (1)
+92.5639347032835
+
+>  <r_j_QM_Dipole_(debye)> (1)
+0.0365056757078368
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-0.00749983350838517
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+-0.0282404462048228
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+0.0218836481050295
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+130.873940780479
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3057.86159782801
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+160.511327267361
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+140.970466432545
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+87.6818308048465
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+5.93324107601739
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-20.2090967784476
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+5.34075548719012
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+34.1565370427776
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+34.109009838447
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-314.390346666
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-314.389402480108
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-314.431062947566
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+10.8014
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+$$$$

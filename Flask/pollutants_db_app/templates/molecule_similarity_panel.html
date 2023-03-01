@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="APDB Web App">
+    
+    <!-- Import CSS stylesheet --> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" media="all" href="https://s3.amazonaws.com/dynatable-docs-assets/css/jquery.dynatable.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    <!-- Import Bootstrap JS plugins --> 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+    <!-- Import JS libraries --> 
+    <script type='text/javascript' src='https://s3.amazonaws.com/dynatable-docs-assets/js/jquery.dynatable.js'></script>  
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!--download icon-->
+
+    <!-- Import JS scripts --> 
+    <script src="{{ url_for('static', filename='js/browseTables.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/search.js') }}"></script>
+
+  </head>
+
+  <body>
+    <nav class="navbar fixed-top navbar-expand-md navbar-expand-lg navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarToggle">
+        <ul class="navbar navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/apdb/home" target="_self">Home<span class="sr-only">(current)</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/apdb/statistics" target="_self">Statistics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/apdb/documentation" target="_self">Documentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/apdb/downloads-contacts" target="_self">Downloads/Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+    <div class="content">
+
+    <h3 class="panel-title">Similar Molecules</h3>
+        
+        <div class="row" style="margin-left: 10px;"> 
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                
+                <dl class="dl-horizontal">
+                    <dd>
+                        <h4 style="width: 400px;">{{ molecule[0] }}</h4>
+                        <img src="{{ url_for('static', filename='tmp_img/mol.png') }}" class="img-responsive">
+                    </dd>
+                
+                    <dd>
+                        <dt><strong>Download</strong></dt>
+                        <a href="/apdb/home/browse-similarities/panel/download?cid={{ molecule[1] }}">
+                            <strong><span class="glyphicon glyphicon-download-alt">SDF</span></strong>
+                        </a>
+                    </dd>
+
+                </dl>  
+
+            </div> <!-- col-sm-4 col-md-4 col-lg-4 -->
+
+            <div class="col-md-1" id="rightCol"></div> 
+            <div class="col-sm-3 col-md-3 col-lg-3">
+
+                <dl class="dl-horizontal" id="molecule">
+
+                    <dd>
+                        <dt>Chemical Name</dt>{{ molecule[0] }}
+                    </dd>
+                    
+                    <dd>
+                        <dt>PubChem CID</dt>{{ molecule[1] }}
+                    </dd>
+                    
+                    <dd>
+                        <dt>Molecular Formula</dt>{{ molecule[5] }}
+                    </dd>
+                    
+                    <dd>
+                        <dt>InChIKey</dt>{{ molecule[3] }}
+                    </dd>
+
+                </dl>
+            </div>  <!-- col-sm-3 col-md-3 col-lg-3 -->
+
+            <div class="col-md-1" id="rightCol"></div>
+            <div class="col-sm-3 col-md-3 col-lg-3"> 
+
+                <dl class="dl-horizontal" id="molecule">
+
+                    <dd>
+                        <dt>Molecule Type</dt>{{ molecule[7] }}
+                    </dd>
+            
+                    <dd>
+                        <dt>Canonical SMILES</dt>{{ molecule[4] }}
+                    </dd>
+                    
+                    <dt style="margin-top: 10px;">Targets</dt>
+                    <dd>
+                        <textarea id="targets" readonly>{{ targets }}</textarea>
+                    </dd>
+
+                </dl>  
+
+            </div> <!-- col-sm-3 col-md-3 col-lg-3 -->
+        </div> <!-- row -->
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+
+            <div class="row">
+
+                <div class="col-sm-9 col-md-9 col-lg-9" id="threshold_search"> 
+                    <span>
+
+                        <label for="similarity_thr">Similarity threshold (0.75-0.99):</label>
+                        <input type="number" id="similarity_thr" name="similarity_thr" min="0.75" max="0.99" step="0.01" value="0.95">
+                        <button id="similarity_btn">Run</button>
+
+                        <div class="info-alert alert-box-error">
+                            <p class="info-alert-text">{{ alert_message }}</p>
+                        </div>
+
+                    </span>
+                </div> <!-- col-sm-9 col-md-9 col-lg-9 -->
+
+                <div class="col-sm-3 col-md-3 col-lg-3"> 
+                    <div class="divpoints" id="legend"> 
+
+                        <dt>Similarity:</dt>
+                    
+                        <svg width="250" height="80">
+
+                            <text x="5" y="15" font-size="14" fill="#605F5F"> ~ 0.95</text>
+                            <circle cx="30" cy="35"  r="{{ 0.95*14.986746987951807 }}" fill="#e95d5d" stroke="none" > </circle>
+                            <text x="15" y="65" font-size="14" fill="#605F5F" text-decoration="underline">high</text>
+
+                            <text x="65" y="15" font-size="14" fill="#605F5F"> ~ 0.85</text>
+                            <circle cx="90" cy="35" r="{{ 0.85*14.986746987951807 }}" fill="#e95d5d" stroke="none" > </circle>
+                            <text x="65" y="65" font-size="14" fill="#605F5F" text-decoration="underline">medium</text>
+
+                            <text x="125" y="15" font-size="14" fill="#605F5F"> ~ 0.75</text>
+                            <circle cx="150" cy="35" r="{{ 0.75*14.986746987951807 }}" fill="#e95d5d" stroke="none" > </circle>
+                            <text x="140" y="65" font-size="14" fill="#605F5F" text-decoration="underline">low</text>
+
+                            <circle cx="210" cy="35" r="{{ 0.3*14.986746987951807 }}" fill="#605F5F" stroke="none" > </circle>
+                            <text x="195" y="65" font-size="14" fill="#605F5F" text-decoration="underline">not sig.</text>
+
+                        </svg>  
+
+                    </div> <!-- divpoints -->
+                </div> <!-- col-sm-3 col-md-3 col-lg-3 -->           
+            </div> <!-- row -->
+
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <table id="molecule_similarity_table" class="table table-scroll table_inner"> 
+
+                    <thead>
+                        <tr>
+                            <th style="width: 300px">
+                                
+                                <form action="/apdb/home/browse-similarities/panel/download?cid={{ molecule[1] }}" method="post">
+                                     MOST SIMILAR
+                                    <button class="fa fa-download fa-lg" id="molecules_download" title="Click to download"></button> <!-- cid and thresh -->
+                                    <input type="hidden" name="molecules_download" value="{{ top_similar }}">
+                                </form>
+
+                            </th>
+
+                            <th>Fingerprints Bits</th>
+                            <th>Fingerprints Counts</th>
+                            <th>Molecular Descriptors</th>
+                            <th>Quantum Properties</th>
+                        </tr>
+                    </thead>
+
+                    <tbody> 
+                        <!-- repeat for the number of similar molecules and the number of models -->
+                        {% for row in top_similar %} 
+                        <tr>
+                            <td id="similar_item">
+                                <div id="similar_text"><a id="similar_cid" role="link">{{ row[0][0] }}</a></div>
+                                <div id="similar_text">{{ row[0][4] }}</div> 
+                                <div >{{ row[0][5] }}</div> 
+                            </td>
+
+                            <td>
+                                <div class="divpoints"> 
+                                    <svg viewBox="0 0 400 100">
+                                        <circle cx="130" cy="50" r="{{ row[0][2]*28.686746987951807 }}" fill="{{ row[0][3] }}" style="cursor:pointer">
+                                            {% if row[0][2]  == 0.3 %}
+                                                <title>FP bits similarity n.s.</title>
+                                            {% else %}
+                                                <title>FP bits similarity = {{ row[0][2] }}</title>
+                                            {% endif %}
+                                        </circle>
+                                    </svg>
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="divpoints"> 
+                                    <svg viewBox="0 0 400 100">
+                                        <circle cx="130" cy="50" r="{{ row[1][2]*28.686746987951807 }}" fill="{{ row[1][3] }}" style="cursor:pointer">
+                                            {% if row[1][2]  == 0.3 %}
+                                                <title>FP counts similarity n.s.</title>
+                                            {% else %}
+                                                <title>FP counts similarity = {{ row[1][2] }}</title>
+                                            {% endif %}
+                                        </circle>
+                                    </svg>
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="divpoints">
+                                    <svg viewBox="0 0 400 100">
+                                        <circle cx="130" cy="50" r="{{ row[2][2]*28.686746987951807 }}" fill="{{ row[2][3] }}" style="cursor:pointer">
+                                            {% if row[2][2]  == 0.3 %}
+                                                <title>Molecular desc. similarity n.s.</title>
+                                            {% else %}
+                                                <title>Molecular desc. similarity = {{ row[2][2] }}</title>
+                                            {% endif %}
+                                        </circle>
+                                    </svg>
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="divpoints"> 
+                                    <svg viewBox="0 0 400 100">
+                                        <circle cx="130" cy="50" r="{{ row[3][2]*28.686746987951807 }}" fill="{{ row[3][3] }}" style="cursor:pointer">
+                                            {% if row[3][2]  == 0.3 %}
+                                                <title>Quantum props. similarity n.s.</title>
+                                            {% else %}
+                                                <title>Quantum props. similarity = {{ row[3][2] }}</title>
+                                            {% endif %}
+                                        </circle>
+                                    </svg>
+                                </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+
+                </table> <!-- table -->
+            </div> <!-- col-sm-12 col-md-12 col-lg-12 --> 
+        </div> <!-- content -->
+   </body>
+</html>

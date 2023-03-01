@@ -1,0 +1,88 @@
+5462309_Phosphorus
+                    3D
+ Schrodinger Suite 2021-3.
+  1  0  0  0  1  0            999 V2000
+    0.0000    0.0000    0.0000 P   0  0  3  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+2
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+UDFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+27
+
+>  <r_j_Gas_Phase_Energy> (1)
+-341.223687035251
+
+>  <r_j_Final_Energy> (1)
+-341.223687035251
+
+>  <r_j_alpha_HOMO> (1)
+-0.21744820723091
+
+>  <r_j_alpha_LUMO> (1)
+-0.183794126646608
+
+>  <r_j_beta_HOMO> (1)
+-0.206316963294737
+
+>  <r_j_beta_LUMO> (1)
+-0.17223221594819
+
+>  <r_j_Polarizability> (1)
+17.6393574547065
+
+>  <r_j_QM_Dipole_(debye)> (1)
+1.4122829156356e-08
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-6.01715880771669e-10
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+-8.65669257184885e-09
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-1.11424375742e-08
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+0
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+37.6018831877459
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+1.48121397206819
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-9.72978750035825
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+0.888728383240912
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+2.98080960335707
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+16.4219817052711
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-341.222270756412
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-341.22132657052
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-341.2391924387
+
+>  <r_j_S2_Value> (1)
+0.753206520151795
+
+$$$$

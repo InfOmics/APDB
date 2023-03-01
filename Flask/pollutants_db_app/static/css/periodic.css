@@ -1,0 +1,98 @@
+ /* 
+  * Fromatting the periodic table
+  */
+
+.wrapper {
+    width:680px;
+    margin:30px auto;
+    position:relative;
+  }
+
+.main:after {
+    clear:both;
+    content:"";
+    display:table;
+  }
+ 
+.main li {
+    width:32px;
+    height: 27px;
+    border:1px solid rgba(0,0,0,0.3);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.4);
+    position:relative;
+    font-size:10px;
+    float:left;
+    padding:0 1px;
+    margin:1px;
+    cursor:pointer;
+    padding-top:13px;
+    overflow:hidden;
+    transition:all .2s ease-in;
+    text-shadow:0 1px 0 rgba(255,255,255,0.2);
+  }
+
+.main li span {
+    display:block;
+    line-height:1;
+    font-size:7px;
+    color:black; 
+    padding-top:2px;
+  }
+
+.main .empty {
+    border:none; 
+    box-shadow:none;
+    cursor:default;
+  }
+
+.deactivate {
+    opacity:0.5;
+    -webkit-filter:grayscale(70%);
+    filter:grayscale(70%);
+  }
+
+.main li:before,
+.main li:after {
+    content:attr(data-pos);
+    position:absolute;
+    top:2px;
+    color:black;
+    font-size:8px;
+    line-height:1;
+  }
+
+.main li:after {
+    content:attr(data-nb);
+    left:auto;
+    right:3px;
+  }
+
+.main li:hover {
+    transform:scale(2);
+    z-index:100;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  } 
+
+.main .empty:hover {
+    box-shadow:none;
+    transform:none;
+  }
+
+.type-0 { background:#fff; }
+.type-1 { background:#dddddd; }
+.type-2 { background:#a8bffa; }
+.type-3 { background:#F8B707; }
+.type-4 { background:#f3f300; }
+.type-5 { background: #1cea9e;}
+.type-6 { background:#dd9999; }
+.type-7 { background:#58b3f8; }
+.type-8 { background:#ffaa88; }
+.type-9 { background:#ddaacc; }
+.type-10 { background:#6fe96f; }
+.type-11 { background:#cecece; }
+
+.cat-0 { color:#222; }      /*solid*/
+.cat-1 { color:#0000dc; }   /*liquid*/
+.cat-2 { color:#b10601; }   /*gas*/
+.cat-3 { color:#555; }      /*unknown*/
+

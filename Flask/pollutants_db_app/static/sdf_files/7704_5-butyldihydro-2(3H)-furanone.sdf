@@ -1,0 +1,177 @@
+7704_5-butyldihydro-2(3H)-furanone
+                    3D
+ Schrodinger Suite 2021-3.
+ 24 24  0  0  1  0            999 V2000
+   -0.5861    1.4728   -0.0310 C   0  0  0  0  0  0
+   -0.0311    0.0456   -0.0461 C   0  0  0  0  0  0
+    1.4992    0.0019    0.0246 C   0  0  0  0  0  0
+    2.0581   -1.4250    0.0083 C   0  0  0  0  0  0
+    3.5757   -1.4847    0.0593 C   0  0  0  0  0  0
+    4.1875   -2.8966    0.0395 C   0  0  0  0  0  0
+    5.5256   -2.6641   -0.6647 C   0  0  0  0  0  0
+    5.2435   -1.4612   -1.5611 C   0  0  0  0  0  0
+    5.8749   -1.0706   -2.5075 O   0  0  0  0  0  0
+    4.1134   -0.8345   -1.1240 O   0  0  0  0  0  0
+   -1.6795    1.4791   -0.0849 H   0  0  0  0  0  0
+   -0.2057    2.0514   -0.8803 H   0  0  0  0  0  0
+   -0.2937    1.9997    0.8845 H   0  0  0  0  0  0
+   -0.4509   -0.5226    0.7956 H   0  0  0  0  0  0
+   -0.3647   -0.4693   -0.9572 H   0  0  0  0  0  0
+    1.9260    0.5589   -0.8179 H   0  0  0  0  0  0
+    1.8373    0.5149    0.9365 H   0  0  0  0  0  0
+    1.6699   -1.9935    0.8649 H   0  0  0  0  0  0
+    1.7253   -1.9483   -0.8976 H   0  0  0  0  0  0
+    3.9446   -0.9220    0.9296 H   0  0  0  0  0  0
+    4.2756   -3.3195    1.0428 H   0  0  0  0  0  0
+    3.5530   -3.5625   -0.5562 H   0  0  0  0  0  0
+    6.3181   -2.3802    0.0383 H   0  0  0  0  0  0
+    5.8948   -3.4997   -1.2613 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1 11  1  0  0  0
+  1 12  1  0  0  0
+  1 13  1  0  0  0
+  2  3  1  0  0  0
+  2 14  1  0  0  0
+  2 15  1  0  0  0
+  3  4  1  0  0  0
+  3 16  1  0  0  0
+  3 17  1  0  0  0
+  4  5  1  0  0  0
+  4 18  1  0  0  0
+  4 19  1  0  0  0
+  5 10  1  0  0  0
+  5  6  1  0  0  0
+  5 20  1  0  0  0
+  6  7  1  0  0  0
+  6 21  1  0  0  0
+  6 22  1  0  0  0
+  7  8  1  0  0  0
+  7 23  1  0  0  0
+  7 24  1  0  0  0
+  8  9  2  0  0  0
+  8 10  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+354
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+>  <r_j_Gas_Phase_Energy> (1)
+-463.93327288313
+
+>  <r_j_Final_Energy> (1)
+-463.93327288313
+
+>  <r_j_HOMO> (1)
+-0.274424996457131
+
+>  <r_j_LUMO> (1)
+-0.0030717705820496
+
+>  <r_j_Polarizability> (1)
+99.2613222482165
+
+>  <r_j_QM_Dipole_(debye)> (1)
+4.49546900432103
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-1.77371765683939
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+-2.18700612494981
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+3.50430755671635
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+76.3769082696759
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3082.57446696993
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+109.817005102594
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+132.485796082067
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+97.7209007268182
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+6.89740050951986
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-22.238086042181
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+6.30491492069259
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+38.1571561060826
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+37.5335475858536
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-463.712095805113
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-463.711151619221
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-463.757581972777
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+-2.27356
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+>  <s_epik_Chemistry_Notes> (1)
+This compound has an ester and may undergo hydrolysis at high or low pH.
+
+$$$$

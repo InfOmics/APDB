@@ -1,0 +1,168 @@
+7803_Propanoic acid, propyl ester
+                    3D
+ Schrodinger Suite 2021-3.
+ 20 19  0  0  1  0            999 V2000
+   -1.9771    1.5523    0.1070 C   0  0  0  0  0  0
+   -0.4674    1.3185    0.2184 C   0  0  0  0  0  0
+   -0.1010   -0.1309   -0.0542 C   0  0  0  0  0  0
+    1.3341   -0.2479    0.0681 O   0  0  0  0  0  0
+    1.8439   -1.4877   -0.1198 C   0  0  0  0  0  0
+    1.1642   -2.4561   -0.3838 O   0  0  0  0  0  0
+    3.3501   -1.4863    0.0476 C   0  0  0  0  0  0
+    3.7926   -0.9872    1.4315 C   0  0  0  0  0  0
+   -2.2278    2.5983    0.3057 H   0  0  0  0  0  0
+   -2.5295    0.9349    0.8242 H   0  0  0  0  0  0
+   -2.3449    1.3059   -0.8953 H   0  0  0  0  0  0
+    0.0706    1.9584   -0.4907 H   0  0  0  0  0  0
+   -0.1123    1.5905    1.2193 H   0  0  0  0  0  0
+   -0.5789   -0.8144    0.6565 H   0  0  0  0  0  0
+   -0.4017   -0.4459   -1.0600 H   0  0  0  0  0  0
+    3.6921   -2.5069   -0.1367 H   0  0  0  0  0  0
+    3.7744   -0.8403   -0.7304 H   0  0  0  0  0  0
+    4.8832   -1.0040    1.5145 H   0  0  0  0  0  0
+    3.3841   -1.6209    2.2249 H   0  0  0  0  0  0
+    3.4472    0.0354    1.6009 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  9  1  0  0  0
+  1 10  1  0  0  0
+  1 11  1  0  0  0
+  2  3  1  0  0  0
+  2 12  1  0  0  0
+  2 13  1  0  0  0
+  3  4  1  0  0  0
+  3 14  1  0  0  0
+  3 15  1  0  0  0
+  4  5  1  0  0  0
+  5  6  2  0  0  0
+  5  7  1  0  0  0
+  7  8  1  0  0  0
+  7 16  1  0  0  0
+  7 17  1  0  0  0
+  8 18  1  0  0  0
+  8 19  1  0  0  0
+  8 20  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+291
+
+>  <i_j_Geometry_convergence_category> (1)
+1
+
+>  <r_j_Gas_Phase_Energy> (1)
+-386.486217377754
+
+>  <r_j_Final_Energy> (1)
+-386.486217377754
+
+>  <r_j_HOMO> (1)
+-0.281041510418449
+
+>  <r_j_LUMO> (1)
+-0.00527596491857676
+
+>  <r_j_Polarizability> (1)
+79.7842073691674
+
+>  <r_j_QM_Dipole_(debye)> (1)
+2.1397561244626
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0.397316448417993
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+2.03436055154424
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+0.53110550582001
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+81.1619603314931
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3084.90544263983
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+92.4480514093891
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+109.949787313439
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+93.5907901850113
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+6.43835994716305
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-21.4657341464981
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+5.84587435833578
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+33.297619665866
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+36.2299683760847
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-386.301685243647
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-386.300741057754
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-386.345209062506
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+1.80478
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+>  <s_epik_Chemistry_Notes> (1)
+This compound has an ester and may undergo hydrolysis at high or low pH.
+
+$$$$

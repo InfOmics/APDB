@@ -1,0 +1,100 @@
+24682_Sulfur Trioxide
+                    3D
+ Schrodinger Suite 2021-3.
+  4  3  0  0  1  0            999 V2000
+    1.4536    0.0000    0.0000 O   0  0  0  0  0  0
+    0.0000    0.0000    0.0000 S   0  0  2  0  0  0
+   -0.7268    1.2588    0.0000 O   0  0  0  0  0  0
+   -0.7268   -1.2588    0.0000 O   0  0  0  0  0  0
+  1  2  2  0  0  0
+  2  3  2  0  0  0
+  2  4  2  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+96
+
+>  <r_j_Gas_Phase_Energy> (1)
+-623.902741571265
+
+>  <r_j_Final_Energy> (1)
+-623.902741571265
+
+>  <r_j_Polarizability> (1)
+25.3787409087086
+
+>  <r_j_QM_Dipole_(debye)> (1)
+0.000200114427203973
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-0.000200110298496283
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+1.08264180095076e-06
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-6.93035088094971e-07
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+7.29480449675425
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+61.6026321587685
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.82928693445849
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-15.5375378436783
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.23680134563122
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+10.3862609913432
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+26.2243304084953
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-623.887551990393
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-623.886607804501
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-623.915877203062
+
+>  <r_j_HOMO> (1)
+-0.354965653164448
+
+>  <r_j_LUMO> (1)
+-0.113576384361389
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+486.917414154231
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+1303.76977809326
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+506.244755744485
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+$$$$

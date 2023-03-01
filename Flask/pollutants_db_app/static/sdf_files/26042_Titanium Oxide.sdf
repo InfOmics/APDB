@@ -1,0 +1,95 @@
+26042_Titanium Oxide
+                    3D
+ Schrodinger Suite 2021-3.
+  3  2  0  0  1  0            999 V2000
+    0.0000    0.0000    1.3000 O   0  0  0  0  0  0
+    0.0000    0.0000    0.0000 Ti  0  0  0  0  0  0
+    0.0000    0.0000   -1.3000 O   0  0  0  0  0  0
+  1  2  2  0  0  0
+  2  3  2  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+lacv3p**
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+67
+
+>  <r_j_Gas_Phase_Energy> (1)
+-207.443249958241
+
+>  <r_j_Final_Energy> (1)
+-207.443249958241
+
+>  <r_j_HOMO> (1)
+-0.0692349352642901
+
+>  <r_j_LUMO> (1)
+-0.333860863506379
+
+>  <r_j_Polarizability> (1)
+49.9467054251363
+
+>  <r_j_QM_Dipole_(debye)> (1)
+4.5150482463896e-14
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+0
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+4.5150482463896e-14
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+-1572.82105103692
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+9817.50720280038
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+-1444.15505026357
+
+>  <i_j_Num_Negative_Frequencies> (1)
+2
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+16.8258293578102
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+52.5771912635676
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.07415162213168
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-13.601737953101
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+1.48166603330441
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+4.98230196457911
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+22.9570781291463
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-207.414075107077
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-207.413130921185
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-207.43811204151
+
+$$$$

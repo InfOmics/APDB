@@ -1,0 +1,141 @@
+6429_1,2-dichloro 1,1,2,2-tetrafluoroethane
+                    3D
+ Schrodinger Suite 2021-3.
+  8  7  0  0  1  0            999 V2000
+   -0.0290    0.0077    0.0001 C   0  0  0  0  0  0
+    1.5290   -0.0077    0.0001 C   0  0  0  0  0  0
+    1.9763    0.6252   -1.0918 F   0  0  0  0  0  0
+    1.9764    0.6246    1.0923 F   0  0  0  0  0  0
+    2.1376   -1.6914   -0.0003 Cl  0  0  0  0  0  0
+   -0.4763   -0.6252   -1.0918 F   0  0  0  0  0  0
+   -0.4764   -0.6247    1.0923 F   0  0  0  0  0  0
+   -0.6377    1.6914   -0.0003 Cl  0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  6  1  0  0  0
+  1  7  1  0  0  0
+  1  8  1  0  0  0
+  2  3  1  0  0  0
+  2  4  1  0  0  0
+  2  5  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+192
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+>  <r_j_Gas_Phase_Energy> (1)
+-1396.21009889824
+
+>  <r_j_Final_Energy> (1)
+-1396.21009889824
+
+>  <r_j_HOMO> (1)
+-0.347161376496711
+
+>  <r_j_LUMO> (1)
+-0.0471615898233063
+
+>  <r_j_Polarizability> (1)
+49.9284256028337
+
+>  <r_j_QM_Dipole_(debye)> (1)
+0.000369911528019089
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0.000115929145158589
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+0.000262562173050159
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-0.000233358259222583
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+71.8156151743385
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+1256.44236685669
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+168.110766869652
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+15.7502487307264
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+85.7820693634584
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+5.30441527055934
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-20.2715087101558
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+4.71192968173206
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+25.8449219601881
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+34.2143489941753
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-1396.1774903411
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-1396.17654615521
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-1396.21730398469
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+-9.83216
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+$$$$

@@ -1,0 +1,102 @@
+1117_Sulfate
+                    3D
+ Schrodinger Suite 2021-3.
+  5  4  0  0  1  0            999 V2000
+    1.6132    0.0000    0.0000 O   0  5  0  0  0  0
+    0.0000    0.0000    0.0000 S   0  0  2  0  0  0
+    0.0000    1.6132    0.0000 O   0  0  0  0  0  0
+    0.0000   -1.6132    0.0000 O   0  0  0  0  0  0
+   -1.6132    0.0000    0.0000 O   0  5  0  0  0  0
+  1  2  1  0  0  0
+  2  3  2  0  0  0
+  2  4  2  0  0  0
+  2  5  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+119
+
+>  <r_j_Gas_Phase_Energy> (1)
+-698.919780414284
+
+>  <r_j_Final_Energy> (1)
+-698.919780414284
+
+>  <r_j_Polarizability> (1)
+39.9813756234349
+
+>  <r_j_QM_Dipole_(debye)> (1)
+4.00473898170481e-05
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+-3.66804053750085e-05
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+-1.55779074579837e-05
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+3.95854669217804e-06
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+7.74355597763026
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+63.7874197548425
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+3.01607791756767
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-16.0021412823386
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+2.4235923287404
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+13.0363577793579
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+27.0084903060886
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-698.903578032021
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-698.902633846129
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-698.932941307783
+
+>  <r_j_HOMO> (1)
+0.23228909611529
+
+>  <r_j_LUMO> (1)
+0.349901065718032
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+-358.58091883399
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+812.644086103442
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+544.693619523063
+
+>  <i_j_Num_Negative_Frequencies> (1)
+1
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+$$$$

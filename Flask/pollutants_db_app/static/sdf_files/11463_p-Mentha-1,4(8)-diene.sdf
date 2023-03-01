@@ -1,0 +1,178 @@
+11463_p-Mentha-1,4(8)-diene
+                    3D
+ Schrodinger Suite 2021-3.
+ 26 26  0  0  1  0            999 V2000
+   -0.0637   -0.0089   -0.0908 C   0  0  0  0  0  0
+    1.4400   -0.0654   -0.0388 C   0  0  0  0  0  0
+    2.1190   -1.2186   -0.0472 C   0  0  0  0  0  0
+    3.6227   -1.3407    0.0662 C   0  0  0  0  0  0
+    4.2969   -0.0203    0.3958 C   0  0  0  0  0  0
+    5.3198    0.1111    1.2628 C   0  0  0  0  0  0
+    5.9629   -1.0453    1.9975 C   0  0  0  0  0  0
+    5.9702    1.4302    1.6186 C   0  0  0  0  0  0
+    3.6510    1.1195   -0.3619 C   0  0  0  0  0  0
+    2.1661    1.2598    0.0212 C   0  0  0  0  0  0
+   -0.4654    0.5280    0.7791 H   0  0  0  0  0  0
+   -0.5109   -1.0072   -0.1071 H   0  0  0  0  0  0
+   -0.4091    0.5363   -0.9792 H   0  0  0  0  0  0
+    1.5709   -2.1580   -0.1150 H   0  0  0  0  0  0
+    3.8469   -2.1071    0.8143 H   0  0  0  0  0  0
+    4.0219   -1.7353   -0.8843 H   0  0  0  0  0  0
+    7.0483   -1.0413    1.8319 H   0  0  0  0  0  0
+    5.5918   -2.0264    1.6999 H   0  0  0  0  0  0
+    5.8170   -0.9447    3.0817 H   0  0  0  0  0  0
+    5.9693    1.5695    2.7079 H   0  0  0  0  0  0
+    5.4863    2.3013    1.1763 H   0  0  0  0  0  0
+    7.0239    1.4389    1.3086 H   0  0  0  0  0  0
+    4.1661    2.0710   -0.2215 H   0  0  0  0  0  0
+    3.7020    0.8913   -1.4365 H   0  0  0  0  0  0
+    1.6742    1.9802   -0.6472 H   0  0  0  0  0  0
+    2.0795    1.6822    1.0333 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1 11  1  0  0  0
+  1 12  1  0  0  0
+  1 13  1  0  0  0
+  2 10  1  0  0  0
+  2  3  2  0  0  0
+  3  4  1  0  0  0
+  3 14  1  0  0  0
+  4  5  1  0  0  0
+  4 15  1  0  0  0
+  4 16  1  0  0  0
+  5  6  2  3  0  0
+  5  9  1  0  0  0
+  6  7  1  0  0  0
+  6  8  1  0  0  0
+  7 17  1  0  0  0
+  7 18  1  0  0  0
+  7 19  1  0  0  0
+  8 20  1  0  0  0
+  8 21  1  0  0  0
+  8 22  1  0  0  0
+  9 10  1  0  0  0
+  9 23  1  0  0  0
+  9 24  1  0  0  0
+ 10 25  1  0  0  0
+ 10 26  1  0  0  0
+M  END
+> <i_m_Spin_multiplicity>
+1
+
+> <s_j_Task>
+Single Point
+
+> <s_j_QM_Method>
+DFT(b3lyp-d3)
+
+> <s_j_QM_Basis>
+cc-pvtz(-f)
+
+> <i_j_Number_of_canonical_orbitals>
+369
+
+> <i_j_Geometry_convergence_category>
+0
+
+> <r_j_Gas_Phase_Energy>
+-390.828572212577
+
+> <r_j_Final_Energy>
+-390.828572212577
+
+> <r_j_HOMO>
+-0.228412989259745
+
+> <r_j_LUMO>
+0.0129026717201679
+
+> <r_j_Polarizability>
+119.224627585871
+
+> <r_j_QM_Dipole_(debye)>
+0.224321113227179
+
+> <r_j_QM_Dipole_X_(debye)>
+0.070615768184435
+
+> <r_j_QM_Dipole_Y_(debye)>
+0.203011112883026
+
+> <r_j_QM_Dipole_Z_(debye)>
+0.0641861602621508
+
+> <r_j_Lowest_Frequency_(cm-1)>
+75.1952475448013
+
+> <r_j_Highest_Frequency_(cm-1)>
+3092.32011872776
+
+> <r_j_2nd_Lowest_Frequency_(cm-1)>
+133.026929943604
+
+> <i_j_Num_Negative_Frequencies>
+0
+
+> <r_j_Zero_Point_Energy_(kcal/mol)>
+146.598433417948
+
+> <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm>
+97.1368447708272
+
+> <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm>
+7.14778596978283
+
+> <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm>
+-21.8135642986393
+
+> <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm>
+6.55530038095555
+
+> <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm>
+41.4346274730482
+
+> <r_j_ln(Q)_298.15K_1.00E+00atm>
+36.8170377642696
+
+> <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm>
+-390.584506200635
+
+> <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm>
+-390.583562014743
+
+> <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm>
+-390.629714864465
+
+> <r_lp_tautomer_probability>
+1
+
+> <r_epik_Ionization_Penalty>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+  0.0000
+
+> <r_epik_Charging_Adjusted_Penalty>
+0
+
+> <i_epik_Tot_Q>
+0
+
+> <i_epik_Tot_abs_Q>
+0
+
+> <s_lp_Force_Field>
+S-OPLS
+
+> <r_lp_Energy>
+5.80897
+
+> <b_lp_Chiralities_Consistent>
+1
+
+$$$$

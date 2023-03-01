@@ -1,0 +1,176 @@
+12989_Ethyl-3-ethoxypropionate
+                    3D
+ Schrodinger Suite 2021-3.
+ 24 23  0  0  1  0            999 V2000
+   -2.7683    2.3235   -0.1023 C   0  0  0  0  0  0
+   -2.0942    0.9629   -0.0557 C   0  0  0  0  0  0
+   -0.6930    1.1626   -0.1599 O   0  0  0  0  0  0
+    0.0527   -0.0407   -0.1267 C   0  0  0  0  0  0
+    1.5243    0.3415   -0.0573 C   0  0  0  0  0  0
+    1.8436    0.9950    1.2757 C   0  0  0  0  0  0
+    1.4287    0.6077    2.3475 O   0  0  0  0  0  0
+    2.6690    2.0503    1.1280 O   0  0  0  0  0  0
+    3.0393    2.7323    2.3502 C   0  0  0  0  0  0
+    3.9356    3.8917    1.9622 C   0  0  0  0  0  0
+   -3.8547    2.2185   -0.0201 H   0  0  0  0  0  0
+   -2.5361    2.8316   -1.0427 H   0  0  0  0  0  0
+   -2.4139    2.9491    0.7220 H   0  0  0  0  0  0
+   -2.3350    0.4413    0.8859 H   0  0  0  0  0  0
+   -2.4526    0.3236   -0.8813 H   0  0  0  0  0  0
+   -0.2087   -0.6399    0.7587 H   0  0  0  0  0  0
+   -0.1445   -0.6501   -1.0244 H   0  0  0  0  0  0
+    2.1430   -0.5602   -0.1415 H   0  0  0  0  0  0
+    1.7867    1.0117   -0.8787 H   0  0  0  0  0  0
+    2.1279    3.0645    2.8576 H   0  0  0  0  0  0
+    3.5431    2.0222    3.0145 H   0  0  0  0  0  0
+    4.2424    4.4428    2.8565 H   0  0  0  0  0  0
+    3.4103    4.5800    1.2940 H   0  0  0  0  0  0
+    4.8338    3.5340    1.4508 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1 11  1  0  0  0
+  1 12  1  0  0  0
+  1 13  1  0  0  0
+  2  3  1  0  0  0
+  2 14  1  0  0  0
+  2 15  1  0  0  0
+  3  4  1  0  0  0
+  4  5  1  0  0  0
+  4 16  1  0  0  0
+  4 17  1  0  0  0
+  5  6  1  0  0  0
+  5 18  1  0  0  0
+  5 19  1  0  0  0
+  6  7  2  0  0  0
+  6  8  1  0  0  0
+  8  9  1  0  0  0
+  9 10  1  0  0  0
+  9 20  1  0  0  0
+  9 21  1  0  0  0
+ 10 22  1  0  0  0
+ 10 23  1  0  0  0
+ 10 24  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+1
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+DFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+355
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+>  <r_j_Gas_Phase_Energy> (1)
+-501.051451866829
+
+>  <r_j_Final_Energy> (1)
+-501.051451866829
+
+>  <r_j_HOMO> (1)
+-0.25788945285516
+
+>  <r_j_LUMO> (1)
+0.00557773850187827
+
+>  <r_j_Polarizability> (1)
+96.9913992700377
+
+>  <r_j_QM_Dipole_(debye)> (1)
+1.08664220571563
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+0.353439265239375
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+0.220452188842449
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-1.00362981296101
+
+>  <r_j_Lowest_Frequency_(cm-1)> (1)
+37.4304250906346
+
+>  <r_j_Highest_Frequency_(cm-1)> (1)
+3074.71799799369
+
+>  <r_j_2nd_Lowest_Frequency_(cm-1)> (1)
+77.6433172382122
+
+>  <i_j_Num_Negative_Frequencies> (1)
+0
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+130.588866656636
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+103.942672172125
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+7.73364033291228
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-23.2568673752067
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+7.141154744085
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+41.1856394265924
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+39.253051574199
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-500.831965105297
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-500.831020919405
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-500.880407437362
+
+>  <r_lp_tautomer_probability> (1)
+1
+
+>  <r_epik_Ionization_Penalty> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Charging> (1)
+  0.0000
+
+>  <r_epik_Ionization_Penalty_Neutral> (1)
+  0.0000
+
+>  <r_epik_State_Penalty> (1)
+  0.0000
+
+>  <r_epik_Charging_Adjusted_Penalty> (1)
+0
+
+>  <i_epik_Tot_Q> (1)
+0
+
+>  <i_epik_Tot_abs_Q> (1)
+0
+
+>  <s_lp_Force_Field> (1)
+S-OPLS
+
+>  <r_lp_Energy> (1)
+-2.536888
+
+>  <b_lp_Chiralities_Consistent> (1)
+1
+
+>  <s_epik_Chemistry_Notes> (1)
+This compound has an ester and may undergo hydrolysis at high or low pH.
+
+$$$$

@@ -1,0 +1,88 @@
+5360523_Chlorine atom
+                    3D
+ Schrodinger Suite 2021-3.
+  1  0  0  0  1  0            999 V2000
+    0.0000    0.0000    0.0000 Cl  0  0  1  0  0  0
+M  END
+>  <i_m_Spin_multiplicity> (1)
+2
+
+>  <s_j_Task> (1)
+Single Point
+
+>  <s_j_QM_Method> (1)
+UDFT(b3lyp-d3)
+
+>  <s_j_QM_Basis> (1)
+cc-pvtz(-f)
+
+>  <i_j_Number_of_canonical_orbitals> (1)
+27
+
+>  <r_j_Gas_Phase_Energy> (1)
+-460.173367311247
+
+>  <r_j_Final_Energy> (1)
+-460.173367311247
+
+>  <r_j_alpha_HOMO> (1)
+-0.355745737886048
+
+>  <r_j_alpha_LUMO> (1)
+0.30615299746698
+
+>  <r_j_beta_HOMO> (1)
+-0.339879560093012
+
+>  <r_j_beta_LUMO> (1)
+-0.249093225060381
+
+>  <r_j_Polarizability> (1)
+8.89030615687033
+
+>  <r_j_QM_Dipole_(debye)> (1)
+2.75380530160641e-09
+
+>  <r_j_QM_Dipole_X_(debye)> (1)
+2.24953354700003e-11
+
+>  <r_j_QM_Dipole_Y_(debye)> (1)
+1.84381765435428e-09
+
+>  <r_j_QM_Dipole_Z_(debye)> (1)
+-2.0453053699947e-09
+
+>  <r_j_Zero_Point_Energy_(kcal/mol)> (1)
+0
+
+>  <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+37.9635069587635
+
+>  <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+1.48121397206819
+
+>  <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+-9.83760562768714
+
+>  <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm> (1)
+0.888728383240912
+
+>  <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm> (1)
+2.98080960335707
+
+>  <r_j_ln(Q)_298.15K_1.00E+00atm> (1)
+16.6039576543271
+
+>  <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm> (1)
+-460.171951032409
+
+>  <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm> (1)
+-460.171006846516
+
+>  <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm> (1)
+-460.18904453382
+
+>  <r_j_S2_Value> (1)
+0.752401990215169
+
+$$$$

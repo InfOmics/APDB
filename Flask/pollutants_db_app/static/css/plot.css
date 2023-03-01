@@ -1,0 +1,7 @@
+
+  /* Formatting plotly movebar */
+.js-plotly-plot .plotly .modebar {
+    left: 35%;
+    transform: translateX(-50%);
+  }
+

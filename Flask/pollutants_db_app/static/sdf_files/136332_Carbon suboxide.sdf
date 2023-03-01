@@ -1,0 +1,102 @@
+136332_Carbon suboxide
+                    3D
+ Schrodinger Suite 2021-3.
+  5  4  0  0  1  0            999 V2000
+    0.0023    0.0003   -0.0009 C   0  0  0  0  0  0
+   -0.4716    0.1578   -1.1778 C   0  0  0  0  0  0
+   -0.9050    0.3021   -2.2556 O   0  0  0  0  0  0
+    0.4718   -0.1578    1.1778 C   0  0  0  0  0  0
+    0.9021   -0.3024    2.2567 O   0  0  0  0  0  0
+  1  2  2  0  0  0
+  1  4  2  0  0  0
+  2  3  2  0  0  0
+  4  5  2  0  0  0
+M  END
+> <i_m_Spin_multiplicity>
+1
+
+> <s_j_Task>
+Single Point
+
+> <s_j_QM_Method>
+DFT(b3lyp-d3)
+
+> <s_j_QM_Basis>
+cc-pvtz(-f)
+
+> <i_j_Number_of_canonical_orbitals>
+113
+
+> <r_j_Gas_Phase_Energy>
+-264.815337217267
+
+> <r_j_Final_Energy>
+-264.815337217267
+
+> <r_j_Polarizability>
+39.7997773337259
+
+> <r_j_QM_Dipole_(debye)>
+0.00199732293031834
+
+> <r_j_QM_Dipole_X_(debye)>
+5.54492692488768e-05
+
+> <r_j_QM_Dipole_Y_(debye)>
+-0.000423039979252171
+
+> <r_j_QM_Dipole_Z_(debye)>
+0.00195122050073013
+
+> <r_j_Zero_Point_Energy_(kcal/mol)>
+13.6265142421653
+
+> <r_j_Entropy_(cal/mol/K)_298.15K_1.00E+00atm>
+64.1723540687182
+
+> <r_j_Enthalpy_(kcal/mol)_298.15K_1.00E+00atm>
+3.37587868037559
+
+> <r_j_Free_Energy_(kcal/mol)_298.15K_1.00E+00atm>
+-15.7571086852127
+
+> <r_j_Internal_Energy_(kcal/mol)_298.15K_1.00E+00atm>
+2.78339309154831
+
+> <r_j_Heat_Capacity_(cal/mol/K)_298.15K_1.00E+00atm>
+13.7082507121402
+
+> <r_j_ln(Q)_298.15K_1.00E+00atm>
+26.594923121086
+
+> <r_j_Total_Internal_Energy_(au)_298.15K_1.00E+00atm>
+-264.789186365179
+
+> <r_j_Total_Enthalpy_(au)_298.15K_1.00E+00atm>
+-264.788242179287
+
+> <r_j_Total_Free_Energy_(au)_298.15K_1.00E+00atm>
+-264.818732535656
+
+> <r_j_HOMO>
+-0.30092296958857
+
+> <r_j_LUMO>
+-0.0782597444876729
+
+> <r_j_Lowest_Frequency_(cm-1)>
+134.185507776411
+
+> <r_j_Highest_Frequency_(cm-1)>
+2320.56794102214
+
+> <r_j_2nd_Lowest_Frequency_(cm-1)>
+134.208349423266
+
+> <i_j_Num_Negative_Frequencies>
+0
+
+>  <i_j_Geometry_convergence_category> (1)
+0
+
+$$$$
