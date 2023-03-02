@@ -9,7 +9,7 @@ services:
       - POSTGRES_DB=postgres
     volumes:
       - ./postgres/data:/var/lib/postgresql/data
-      - ./../psql_db/APDB_pollutants.sql:/docker-entrypoint-initdb.d/create_tables.sql
+      - ./psql_db/APDB_pollutants.sql:/docker-entrypoint-initdb.d/APDB_pollutants.sql
     ports:
       - 5432:5432
   app:
@@ -20,6 +20,6 @@ services:
     depends_on:
       - pgdb
     volumes:
-      - .:/python-docker
+      - .:/apdb_app
     entrypoint: ["python", "app.py","run"]
     
