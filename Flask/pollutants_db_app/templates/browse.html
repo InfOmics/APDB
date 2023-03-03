@@ -52,7 +52,7 @@
             <div class="thumbnail">
               <div class="row">
                 <div class="col-sm-5 col-md-5 col-lg-5">
-                  <img src="{{ url_for('static', filename='img/molecule.png') }}" width = "180"  height="auto" style="margin-left: -20px;">
+                  <img src="{{ url_for('static', filename='img/molecule.png') }}" width = "185"  height="auto" style="margin-left: -20px;">
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                   <h3>molecular annotations</h3>
@@ -103,10 +103,10 @@
             <div class="thumbnail">
               <div class="row">
                 <div class="col-sm-5 col-md-5 col-lg-5">
-                  <img src="{{ url_for('static', filename='img/cosine_similarity.png') }}" width = "120"  height="auto" style="margin-top: 10px;">
+                  <img src="{{ url_for('static', filename='img/cosine_similarity.png') }}" width = "auto"  height="110" style="margin-top: 10px;">
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
-                  <h3>molecular similarities</h3>
+                  <h3>molecular<br>similarities</h3>
                   <form id="data_browse" name="data_browse" action="/apdb/home/browse-similarities" method="get">
                     <input type="submit" class="btn btn-default" id="similarity_button" name="similarity_button" value="Run">
                   </form>

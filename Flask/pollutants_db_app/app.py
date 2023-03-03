@@ -1,7 +1,8 @@
 from flask import Flask, redirect, render_template, request, send_file, send_from_directory, make_response
 import io
 import os, zipfile
-import pandas as pd 
+from dotenv import load_dotenv
+import pandas as pd
 import numpy as np
 import psycopg2
 from psycopg2 import sql
@@ -13,15 +14,20 @@ import re
 import ast
 from gensim.models import Word2Vec
 
+
 # create an instance of Flask class
 app = Flask(__name__)
+
+
+# load dotenv file
+load_dotenv(os.getcwd() + '/.env')
 
 
 # database connection
 def get_db_connection():
   # define connection parameters dictionary
-  conn_params_dic = {'host' : 'pgdb', 'database' : 'postgres', 
-                    'user' : 'postgres', 'password' : 'postgres'}
+  conn_params_dic = {'host' : os.getenv('POSTGRES_HOST'), 'database' : os.getenv('POSTGRES_DB'), 
+                    'user' : os.getenv('POSTGRES_USER'), 'password' : os.getenv('POSTGRES_PASSWORD')}
   # create connection 
   conn = None
   print('Connecting to the PostgreSQL...........')
@@ -31,11 +37,13 @@ def get_db_connection():
   return conn
 
 
+
 # redirect url 
 @app.route("/") 
 
 def index():
-  redirect("http://apdb.di.univr.it/apdb/home", code=302)
+   return redirect("http://apdb.di.univr.it/apdb/home", code=302)
+
 
 
 
@@ -49,14 +57,14 @@ def browse():
     return render_template("molecule_table.html")
 
   # run bioassays
-  elif request.form.get('bioassay_button') == 'Run':  
+  elif request.form.get('bioassay_button') == 'Run':
     return render_template("bioassay_table.html")
 
   # run descriptors
   elif request.form.get('descriptor_button' == 'Run'):
     return render_template("descriptors_overview.html")
 
-  # run similarities 
+  # run similarities
   elif request.form.get('similarity_button') == 'Run':
     return render_template("similarity_panel.html")
 
@@ -487,7 +495,7 @@ def descriptor_download():
     descriptor = request.args.get('descriptor', type = str)
 
     # path to read
-    path = "../psql_db/Tables"
+    path = os.getcwd() + "/psql_db/Tables"
 
     # read fingerprints bits
     if descriptor == 'FB': 
@@ -571,18 +579,18 @@ def model_download():
     model_name = request.args.get('model', type = str)
  
     # set embedding models path
-    path = "static/models/zip"
+    path = os.getcwd() + "/pollutants_db_app/static/models/zip/"
     model_files =  os.listdir(path)
 
-    # set filename
+   # set filename
     if model_name == "FB":
-      filename = model_files[0]
+      filename = [m for m in model_files if model_name in m][0]
     if model_name == "FC":
-      filename = model_files[1]
+      filename = [m for m in model_files if model_name in m][0]
     if model_name == "MD":
-      filename = model_files[2]
+      filename = [m for m in model_files if model_name in m][0]
     if model_name == "QP":
-      filename = model_files[3]
+      filename = [m for m in model_files if model_name in m][0]
 
     # return file 
     return send_from_directory(path, filename, as_attachment=True)
@@ -623,7 +631,7 @@ def similarity_panel_browse():
     # draw structure from smiles 
     smiles = molecule[4]
     mol = Chem.MolFromSmiles(smiles)
-    Draw.MolToFile(mol, "./static/tmp_img/mol.png")
+    Draw.MolToFile(mol, os.getcwd() + "/pollutants_db_app/static/tmp_img/mol.png")
     
     # check if single atom 
     single_atom = False
@@ -646,16 +654,18 @@ def similarity_panel_browse():
     else: targets = None
     
     # set embedding models path
-    path = "static/models/"
+    path = os.getcwd() + "/pollutants_db_app/static/models/"
     model_files = os.listdir(path)
+    # remove zip folder
+    model_files.remove('zip')
 
     # check single atom
     if single_atom:
       i=2
-      models = [model_files[i] for i in [1,2]]
+      models = models = [m for m in model_files if "Elem" in m]
     else:
       i=0 
-      models = [model_files[i] for i in [0,1,3,5]]
+      models = [m for m in model_files if "Elem" not in m]
        
     # generate model path names and colours
     pnames = [path + p for p in models]
@@ -792,7 +802,7 @@ def similar_molecules_download():
     molecule_cid = request.args.get('cid', type = str)
 
     # set sdf files path name
-    path = "static/sdf_files/"
+    path = os.getcwd() + "/pollutants_db_app/static/sdf_files/"
     # find filename with current cid 
     filename = [i for i in os.listdir(path) if molecule_cid in i.split('_')[:-1]]
 
@@ -840,14 +850,14 @@ def db_download():
     db_format = request.args.get('format', type = str)
  
     # set embedding models path
-    path = "../psql_db/"
+    path = os.getcwd() + "/psql_db/"
     db_files =  os.listdir(path)
 
     # set filename
     if db_format == "sql":
-      filename = db_files[0]
-    else:
-      filename = db_files[1]
+      filename = [file for file in db_files if ".sql" in file][0]
+    elif db_format == "zip":
+      filename = [file for file in db_files if ".zip" in file][0]
 
     # return file 
     return send_from_directory(path, filename, as_attachment=True)
@@ -855,4 +865,4 @@ def db_download():
 
 # entry point
 if __name__ == '__main__':
-  app.run(debug=True)
+  app.run(host='0.0.0.0', port=5000)

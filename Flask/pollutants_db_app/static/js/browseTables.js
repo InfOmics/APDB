@@ -54,9 +54,9 @@ $(document).ready(function() {
 
     if(atom.length == 1) {
       // create a url location with filtered element 
-      window.location.replace(`http://localhost:5000/apdb/home/browse-molecules/filter?element=${atom.toUpperCase()}`);
+      window.location.replace(`http://` + window.location.hostname + `/apdb/home/browse-molecules/filter?element=${atom.toUpperCase()}`);
     } else {
-      window.location.replace(`http://localhost:5000/apdb/home/browse-molecules/filter?element=${atom}`);
+      window.location.replace(`http://` + window.location.hostname + `/apdb/home/browse-molecules/filter?element=${atom}`);
     }
  });
 });
@@ -68,7 +68,7 @@ $(function(){
     var selected_cid = $(this).text();
     var threshold = 0.95;
     // create a url location with filtered id
-    window.location.replace(`http://localhost:5000/apdb/home/browse-similarities/panel?molecule_id=${selected_cid}&similarity_thr=${threshold}`);
+    window.location.replace(`http://` + window.location.hostname + `/apdb/home/browse-similarities/panel?molecule_id=${selected_cid}&similarity_thr=${threshold}`);
   });
 });
 
@@ -80,7 +80,7 @@ $(function(){
       var selected_cid = $(this).text();
       var threshold = 0.95;
       // create a url location with filtered id
-      window.location.replace(`http://localhost:5000/apdb/home/browse-similarities/panel?molecule_id=${selected_cid}&similarity_thr=${threshold}`);
+      window.location.replace(`http://` + window.location.hostname + `/apdb/home/browse-similarities/panel?molecule_id=${selected_cid}&similarity_thr=${threshold}`);
     });
   });
 });
@@ -92,7 +92,7 @@ $(function(){
     var selected_cid = $(this).text();
     var threshold = 0.95;
     // create a url location with filtered id
-    window.location.replace(`http://localhost:5000/apdb/home/browse-similarities/panel?molecule_id=${selected_cid}&similarity_thr=${threshold}`);
+    window.location.replace(`http://` + window.location.hostname + `/apdb/home/browse-similarities/panel?molecule_id=${selected_cid}&similarity_thr=${threshold}`);
   });
 });
 
@@ -112,7 +112,7 @@ $(function(){
       selected_threshold = 0.75
     }
     // create a url location with filtered cid and selected threshold
-    window.location.replace(`http://localhost:5000/apdb/home/browse-similarities/panel?molecule_id=${current_cid}&similarity_thr=${selected_threshold}`);
+    window.location.replace(`http://` + window.location.hostname + `/apdb/home/browse-similarities/panel?molecule_id=${current_cid}&similarity_thr=${selected_threshold}`);
   });    
   // set current similarity threshold 
   const urlParams = new URLSearchParams(window.location.search);
@@ -126,7 +126,7 @@ $(function(){
   $('#bioassay_table td > a').click(function(){
     var selected_uniprotkb = $(this).text();
     // create a url location with filtered id
-    window.location.replace(`http://localhost:5000/apdb/home/browse-targets?target_uniprotkb=${selected_uniprotkb}`);
+    window.location.replace(`http://` + window.location.hostname + `/apdb/home/browse-targets?target_uniprotkb=${selected_uniprotkb}`);
  });
 });
 
@@ -137,7 +137,7 @@ $(function(){
   $('#bioassay_table td > a').click(function(){
     var selected_uniprotkb = $(this).text();
     // create a url location with filtered id
-    window.location.replace(`http://localhost:5000/apdb/home/browse-targets?target_uniprotkb=${selected_uniprotkb}`);
+    window.location.replace(`http://` + window.location.hostname + `/apdb/home/browse-targets?target_uniprotkb=${selected_uniprotkb}`);
   });
  });
 })
@@ -149,6 +149,6 @@ $(function(){
     var selected_cid = $(this).text();
     var threshold = 0.95;
     // create a url location with filtered id
-    window.location.replace(`http://localhost:5000/apdb/home/browse-similarities/panel?molecule_id=${selected_cid}&similarity_thr=${threshold}`);
+    window.location.replace(`http://` + window.location.hostname + `/apdb/home/browse-similarities/panel?molecule_id=${selected_cid}&similarity_thr=${threshold}`);
   });
 });

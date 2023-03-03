@@ -8,6 +8,7 @@
 
         <!-- Import CSS stylesheet --> 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" type='text/css'>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/plot.css') }}">
 
@@ -72,7 +73,7 @@
                     <div class="col-sm-4 col-md-4 col-lg-3">
 
                         <div id="similarity_search">SEARCH SIMILAR</div>
-                        <textarea id="molecule_id" name="molecule_id" rows="2" placeholder="Search by PubChem CID or InChIKey"></textarea>
+                        <textarea id="molecule_id" name="molecule_id" rows="2" placeholder="Search by PubChem CID or InChIKey (e.g., 6366)"></textarea>
                         <input type="hidden" name="molecule_ids" id="molecule_ids" value = "{{ molecule_ids }}">
                         
                         <div class="info-alert">

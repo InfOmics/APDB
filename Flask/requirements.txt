@@ -12,9 +12,9 @@ decorator==5.1.1
 executing==1.0.0
 Flask==2.1.2
 Flask-WTF==1.0.1
-psycopg2==2.9.3
 psycopg2-binary==2.9.4
 fonttools==4.37.1
+kaleido==0.2.1
 gensim==4.2.0
 gprofiler-official==1.0.0
 idna==3.3
@@ -22,7 +22,6 @@ ipython==8.5.0
 itsdangerous==2.1.2
 jedi==0.18.1
 Jinja2==3.1.2
-kaleido==0.2.1
 kiwisolver==1.4.4
 Markdown==3.4.1
 MarkupSafe==2.1.1
@@ -45,6 +44,7 @@ Pygments==2.13.0
 pyparsing==3.0.9
 pypdb==2.2
 python-dateutil==2.8.2
+python-dotenv==1.0.0
 pytz==2022.1
 pyviz-comms==2.2.1
 PyYAML==6.0

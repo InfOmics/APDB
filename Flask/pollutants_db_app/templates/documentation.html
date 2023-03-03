@@ -47,8 +47,8 @@
     <div class="content">
       <div class="row" style="justify-content: center"> 
 
-        <div class="col-sm-2 col-md-2 col-lg-2" style="margin-top: 50px;">
-          <ul class="nav nav-stacked affix">
+        <div class="col-sm-2 col-md-2 col-lg-2">
+          <ul class="nav nav-stacked affix" id="sidebar">
 
             <li class="active"><a href="#sec1">About</a></li>
             <li class=""><a href="#sec2">APDB's use</a></li>
@@ -62,7 +62,7 @@
           <h2>APDB: Database of Air Pollutants</h2>
           <h3>Documentation</h3>
     
-          <span id="sec1">&nbsp;</span><hr><br>
+          <span id="sec1">&nbsp;<hr><br>
 
             <strong style="font-size: 20px;">APDB: a database on air pollutants characterization and similarity prediction</strong>
             <p>
@@ -83,8 +83,9 @@
               properties computed with the quantum chemistry program <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/qua.24481" target="_blank">Jaguar</a>.
               Similar molecules are derived from molecular descriptors and properties by applying the most common similarity measures after accurate data preprocessing.<br>
             </p>
-            
-          <span id="sec2">&nbsp;</span><hr><br>
+          </span>
+
+          <span id="sec2">&nbsp;<hr><br>
 
             <strong style="font-size: 20px;">Home Page</strong><br>
             Through the Home section, users can browse molecules, targets and bioassays, descriptors, and similarities 
@@ -168,14 +169,16 @@
             <div class="row" id="doc_img">
               <img src="{{ url_for('static', filename='doc_img/molecule_similarity_panel.png') }}" width="100%" height="auto">
             </div>
+	  </span>
 
-          <span id="sec3">&nbsp;</span><hr><br>
+          <span id="sec3">&nbsp;<hr><br>
 
             <strong>License</strong><br><br>
             <blockquote>
-              Copyright (c) 2023 by <a href="https://infomics.github.io/InfOmics/" target="_blank">InfOmics</a><br><br>
-              This website and all its content is licensed under a MIT License.
+              Copyright (c) 2023 by Eva Viesi | <a href="https://infomics.github.io/InfOmics/" target="_blank">InfOmics</a><br><br>
+              Except where otherwise noted, this website and all its content is licensed under a MIT License.
             </blockquote>
+	  </span>
 
         </div> <!-- col-sm-8 col-md-8 col-lg-8 -->
         <div class="col-md-1" id="rightCol"></div>
