@@ -37,7 +37,6 @@ def get_db_connection():
   return conn
 
 
-
 # redirect url 
 @app.route("/") 
 
@@ -331,6 +330,7 @@ def bioassay_browse():
     # set id options and placeholder
     id_options = ["target GI", "target geneID", "target symbol", "uniprotkb"]
     placeholder = "Choose an input option"
+    filtered_bioassays = []
 
     # open connection
     conn = get_db_connection()
@@ -663,9 +663,11 @@ def similarity_panel_browse():
     if single_atom:
       i=2
       models = models = [m for m in model_files if "Elem" in m]
+      models.sort()
     else:
       i=0 
       models = [m for m in model_files if "Elem" not in m]
+      models.sort()
        
     # generate model path names and colours
     pnames = [path + p for p in models]
